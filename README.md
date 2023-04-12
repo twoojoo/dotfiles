@@ -12,6 +12,8 @@ All config files are hard linked to the actual files.
 	- **rofi** (start menu)
 	- **networkmanager_dmenu** (network menu)
 - **xbindkeys** (some shortcuts)
+- **terminator** (terminal)
+- **taskwarrior-tui** (todo list)
 
 ## notes
 
