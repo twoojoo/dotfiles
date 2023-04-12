@@ -1,5 +1,7 @@
 # dotfiles
 
+![screenshot](./screenshot.png)
+
 All config files are hard linked to the actual files.
 
 ## dependencies
