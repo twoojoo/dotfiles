@@ -22,6 +22,7 @@ All config files are hard linked to the actual files.
 Custom modules thanks to:
 - arch-updates module ([forum](https://forum.archlabslinux.com/t/polybar-missing-icons-after-new-install/4086/4))
 - brightnesctl module ([github](https://github.com/pim-wtf/brightnessctl-polybar))
+- redshift module ([github](https://github.com/VineshReddy/polybar-redshift))
 
 ### xbindkeys
 
