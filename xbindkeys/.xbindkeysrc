@@ -1,0 +1,128 @@
+# For the benefit of emacs users: -*- shell-script -*-
+###########################
+# xbindkeys configuration #
+###########################
+#
+# Version: 1.8.7
+#
+# If you edit this file, do not forget to uncomment any lines
+# that you change.
+# The pound(#) symbol may be used anywhere for comments.
+#
+# To specify a key, you can use 'xbindkeys --key' or
+# 'xbindkeys --multikey' and put one of the two lines in this file.
+#
+# The format of a command line is:
+#    "command to start"
+#       associated key
+#
+#
+# A list of keys is in /usr/include/X11/keysym.h and in
+# /usr/include/X11/keysymdef.h
+# The XK_ is not needed.
+#
+# List of modifier:
+#   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
+#
+
+# The release modifier is not a standard X modifier, but you can
+# use it if you want to catch release events instead of press events
+
+# By defaults, xbindkeys does not pay attention with the modifiers
+# NumLock, CapsLock and ScrollLock.
+# Uncomment the lines above if you want to pay attention to them.
+
+#keystate_numlock = enable
+#keystate_capslock = enable
+#keystate_scrolllock= enable
+
+
+"$HOME/.config/polybar/panels/scripts/launcher.sh --budgie"
+	Super_L
+
+#close active window
+#"wmctrl -c :ACTIVE:"
+#	Control + escape
+
+#Screenshot
+# "spectacle"
+# 	Print
+
+Toggle dmenu
+#"rofi -combi-modi window,drun -theme android_notification -font 'hack 11' -show combi -show-icons -display-drun '' -display-window '' -click-to-exit -no-click-to-exit -kb-cancel"
+#"/home/giovanni/.config/rofi/launchers/type-3/launcher.sh"
+#	Super_L
+
+# #Spectacle rectangle region
+# "spectacle -r"
+# 	Control + Print
+
+# #shift workspace script
+# "/home/giovanni/Scripts/wm/changeWorkspace.sh"
+# 	alt + tab
+
+# #run insomnia 
+# "insomnia"
+# 	Control + alt + i
+
+#run beekeeper
+# "beekeeper-studio"
+#         Control + alt + d
+
+
+#enable headset mic
+# "pactl set-source-port alsa_input.pci-0000_00_1f.3.analog-stereo analog-input-headset-mic"
+# 	Control + m + h
+
+#enable internal mic 
+# "pactl set-source-port alsa_input.pci-0000_00_1f.3.analog-stereo analog-input-internal-mic"
+# 	Control + m + i
+
+#run nnn file manager
+# "dolphin"
+#   Control + alt + f
+
+#ALREADY IN I3
+# run dmenu at the bottom
+#"dmenu_run -i"
+#  Control + space
+
+# normal terminal shortcut
+#"konsole"
+ # Control + alt + l
+# run code oss
+# "code"
+#   Control + alt + c
+
+# Examples of commands:
+
+# "xbindkeys_show" 
+#   control+shift + q
+
+# set directly keycode (here control + f with my keyboard)
+#"xterm"
+#  c:41 + m:0x4
+
+# specify a mouse button
+#"xterm"
+#  control + b:2
+
+#"xterm -geom 50x20+20+20"
+#   Shift+Mod2+alt + s
+#
+## set directly keycode (here control+alt+mod2 + f with my keyboard)
+#"xterm"
+#  alt + c:0x29 + m:4 + mod2
+#
+## Control+Shift+a  release event starts rxvt
+#"rxvt"
+#  release+control+shift + a
+#
+## Control + mouse button 2 release event starts rxvt
+#"rxvt"
+#  Control + b:2 + Release
+
+##################################
+# End of xbindkeys configuration #
+##################################
