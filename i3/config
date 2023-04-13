@@ -211,11 +211,11 @@ smart_borders no_gaps
 exec --no-startup-id $HOME/.config/polybar/launch.sh --panels
 exec --no-startup-id feh --bg-scale Pictures/wallpaper.jpg
 exec --no-startup-id kwallet5
-exec --no-startup-id i3-layouts
 exec --no-startup-id xbindkeys
 exec --no-startup-id setxkbmap -layout it
 exec --no-startup-id yakuake
 exec --no-startup-id python $HOME/Scripts/i3-hud-menu/hud-menu-service.py
+exec --no-startup-id i3-layouts
 
 
 ## keybinds
