@@ -2,8 +2,6 @@
 
 ![screenshot](./screenshot.jpg)
 
-All config files are hard linked to the actual files.
-
 ## dependencies
 
 - **i3** (window manager, autostart, shortcuts)
