@@ -36,4 +36,4 @@ I was forced to use xbindkeys just because I wasn't able to make the **Super_L**
 
 ### picomp
 
-I'm still striggling to mak the Nvidia drivers not cause picomp to freeze the screen every now and then. I'm not using a compositor at the moment.
+I'm still striggling to make the Nvidia drivers not cause picomp to freeze the screen every now and then. I'm not using a compositor at the moment.
