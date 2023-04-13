@@ -19,6 +19,7 @@ Arch Linux
 - **i3lock** (lock screen, [i3](https://github.com/i3/i3lock))
 - **xautolock** (auto lock screen)
 - **i3-hud-menu** (app menu with dmenu, [morrolinux](https://github.com/morrolinux/i3-hud-menu))
+- **picomp ??** (compositor)
 
 ## notes
 
@@ -31,4 +32,8 @@ Custom modules thanks to:
 
 ### xbindkeys
 
-- I was forced to use xbindkeys just because I wasn't able to make the **Super_L** key work with i3 as a standalone key to launch the rofi "start" menu
+I was forced to use xbindkeys just because I wasn't able to make the **Super_L** key work with i3 as a standalone key to launch the rofi "start" menu
+
+### picomp
+
+I'm still striggling to mak the Nvidia drivers not cause picomp to freeze the screen every now and then. I'm not using a compositor at the moment.
