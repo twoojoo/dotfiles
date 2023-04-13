@@ -1,6 +1,6 @@
 # dotfiles
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.jpg)
 
 All config files are hard linked to the actual files.
 
