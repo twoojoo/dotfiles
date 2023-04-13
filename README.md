@@ -2,7 +2,7 @@
 
 ![screenshot](./screenshot.jpg)
 
-## dependencies
+## dependenciesss
 
 - **i3** (window manager, autostart, shortcuts)
 - **polybar** (top bar)
