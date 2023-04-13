@@ -8,12 +8,13 @@ All config files are hard linked to the actual files.
 
 - **i3** (window manager, autostart, shortcuts)
 - **polybar** (top bar)
-- **polybar-themes** ([github](https://github.com/adi1090x/polybar-themes))
+- **polybar-themes** ([adi1090x](https://github.com/adi1090x/polybar-themes))
 	- **rofi** (start menu)
 	- **networkmanager_dmenu** (network menu)
 - **xbindkeys** (some shortcuts)
 - **terminator** (terminal)
 - **taskwarrior-tui** (todo list)
+- **i3-hud-menu** ([morrolinux](https://github.com/morrolinux/i3-hud-menu))
 
 ## notes
 
@@ -21,8 +22,8 @@ All config files are hard linked to the actual files.
 
 Custom modules thanks to:
 - arch-updates module ([forum](https://forum.archlabslinux.com/t/polybar-missing-icons-after-new-install/4086/4))
-- brightnesctl module ([github](https://github.com/pim-wtf/brightnessctl-polybar))
-- redshift module ([github](https://github.com/VineshReddy/polybar-redshift))
+- brightnesctl module ([pim-wtf](https://github.com/pim-wtf/brightnessctl-polybar))
+- redshift module ([VineshReddy](https://github.com/VineshReddy/polybar-redshift))
 
 ### xbindkeys
 
