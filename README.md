@@ -2,7 +2,11 @@
 
 ![screenshot](./screenshot.jpg)
 
-## dependenciesss
+## OS
+
+Arch Linux
+
+## dependencies
 
 - **i3** (window manager, autostart, shortcuts)
 - **polybar** (top bar)
