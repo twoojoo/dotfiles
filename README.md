@@ -31,4 +31,4 @@ Custom modules thanks to:
 
 ### xbindkeys
 
-- I was forced to use xbindkeys just because I wasn't able to make the **Super_L** key work with i3 as a standalone key to launch the polybar "start" menu
+- I was forced to use xbindkeys just because I wasn't able to make the **Super_L** key work with i3 as a standalone key to launch the rofi "start" menu
