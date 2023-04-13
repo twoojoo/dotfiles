@@ -108,7 +108,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -228,7 +228,10 @@ bindsym Ctrl+$mod+m exec --no-startup-id python $HOME/Scripts/i3-hud-menu/hud-me
 bindsym Ctrl+Super_L exec --no-startup-id  $HOME/.config/polybar/panels/scripts/launcher.sh --budgie
 
 ## new ws
-bindsym Ctrl+$mod+Down exec --no-startup-id $HOME/Scripts/i3/new_ws.sh
+bindsym Ctrl+$mod+Down exec --no-startup-id $HOME/.config/i3/scripts/new_ws.sh
+
+## tidy ws
+bindsym Ctrl+$mod+space exec --no-startup-id $HOME/.config/i3/scripts/tidy.sh
 
 ## gnome keyring
 exec --no-startup-id dbus-update-activation-environment --all
