@@ -247,3 +247,9 @@ bindsym Ctrl+$mod+4 exec --no-startup-id i3l 2columns
 bindsym Ctrl+$mod+5 exec --no-startup-id i3l 3columns
 bindsym Ctrl+$mod+6 exec --no-startup-id i3l companion
 bindsym Ctrl+$mod+7 exec --no-startup-id i3l autosplit
+
+## lock screen shortcut
+bindsym Control+Mod1+l exec --no-startup-id "i3lock -c 000000"
+
+# auto lock the screen
+exec --no-startup-id "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\""

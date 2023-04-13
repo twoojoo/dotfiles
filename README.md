@@ -12,7 +12,9 @@
 - **xbindkeys** (some shortcuts)
 - **terminator** (terminal)
 - **taskwarrior-tui** (todo list)
-- **i3-hud-menu** ([morrolinux](https://github.com/morrolinux/i3-hud-menu))
+- **i3lock** (lock screen, [i3](https://github.com/i3/i3lock))
+- **xautolock** (auto lock screen)
+- **i3-hud-menu** (app menu with dmenu, [morrolinux](https://github.com/morrolinux/i3-hud-menu))
 
 ## notes
 
