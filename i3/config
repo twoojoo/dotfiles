@@ -218,6 +218,7 @@ exec --no-startup-id yakuake
 exec --no-startup-id python $HOME/Scripts/i3-hud-menu/hud-menu-service.py
 exec --no-startup-id i3-layouts
 exec --no-startup-id thunar --daemon
+bindsym $mod+Return exec --no-startup-id $HOME/Projects/bash/1launcher/menu.sh
 
 ## keybinds
 bindsym Ctrl+$mod+b exec --no-startup-id chromium
@@ -225,8 +226,6 @@ bindsym $mod+Tab workspace next
 bindsym Ctrl+$mod+Right workspace next
 bindsym Ctrl+$mod+Left workspace prev
 bindsym Ctrl+$mod+m exec --no-startup-id python $HOME/Scripts/i3-hud-menu/hud-menu.py dmenu
-
-bindsym Ctrl+Super_L exec --no-startup-id  $HOME/.config/polybar/panels/scripts/launcher.sh --budgie
 
 ## new ws
 bindsym Ctrl+$mod+Down exec --no-startup-id $HOME/.config/i3/scripts/new_ws.sh
