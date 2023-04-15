@@ -26,6 +26,7 @@ i3-msg "[class=DBeaver] move container to workspace $DATABASE_WS" &> /dev/null
 
 ## HTTP clients
 i3-msg "[class=Insomnia] move container to workspace $HTTP_WS" &> /dev/null
+i3-msg "[class=Postman] move container to workspace $HTTP_WS" &> /dev/null
 
 ## K8s clients
 i3-msg "[class=Lens] move container to workspace $K8S_WS" &> /dev/null 
