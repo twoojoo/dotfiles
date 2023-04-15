@@ -1,11 +1,10 @@
 #!/bin/sh
 
+### UTILS #####
+
 #rmtrash alias (delete moving in trash)
 alias del='trash-put'
 alias trash='trash-put'
-
-## 1launcher 
-alias 1launcher='1launcher && dbus-send --type=method_call --dest=org.kde.yakuake /yakuake/window org.kde.yakuake.toggleWindowState'
 
 ## git alias add . + commit + push
 alias gitall='f(){ git status; git add $(pwd); git commit -m "$1"; git push; unset -f f; }; f'
