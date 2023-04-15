@@ -217,7 +217,7 @@ exec --no-startup-id setxkbmap -layout it
 exec --no-startup-id yakuake
 exec --no-startup-id python $HOME/Scripts/i3-hud-menu/hud-menu-service.py
 exec --no-startup-id i3-layouts
-
+exec --no-startup-id thunar --daemon
 
 ## keybinds
 bindsym Ctrl+$mod+b exec --no-startup-id chromium
