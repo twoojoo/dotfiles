@@ -7,7 +7,7 @@ alias del='trash-put'
 alias trash='trash-put'
 
 ## git alias add . + commit + push
-alias gitall='f(){ git status; git add $(pwd); git commit -m "$1"; git push; unset -f f; }; f'
+alias gitall='f(){ msg="$*"; git status; git add $(pwd); git commit -m "$msg"; git push; unset -f f; }; f'
 
 ## colored ls
 alias ls='ls --color=auto'
@@ -35,6 +35,8 @@ unset npm_config_prefix
 PS1=" \u: \[\033[01;1m\]\w\[\033[m\] \$ "
 
 source .smartpricing.bashrc
+
+alias testss='f () { msg="$*"; echo $str; unset -f f; }; f'
 
 clear
 
