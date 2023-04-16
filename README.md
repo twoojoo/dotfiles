@@ -1,6 +1,6 @@
 # dotfiles
 
-![screenshot](./screenshot.jpg)
+<!-- ![screenshot](./screenshot.jpg) -->
 
 ## OS
 
