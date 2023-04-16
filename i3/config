@@ -149,7 +149,7 @@ smart_borders no_gaps
 
 # startup
 exec --no-startup-id $HOME/.config/polybar/launch.sh --panels
-exec --no-startup-id feh --bg-scale Pictures/wallpaper.jpg
+exec --no-startup-id feh --bg-scale ~/Downloads/wp9034206-pink-lofi-wallpapers.png
 exec --no-startup-id kwallet5
 exec --no-startup-id xbindkeys
 exec --no-startup-id setxkbmap -layout it
@@ -162,6 +162,7 @@ exec --no-startup-id dbus-send --type=method_call --dest=org.kde.yakuake /yakuak
 ## rofi scripts key bindings
 bindsym Ctrl+$mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-path-launcher.sh
 bindsym $mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-chromium-bookmarks.sh && ~/.config/i3/scripts/mv_to_win_ws.sh chromium  
+bindsym Shift+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-window-switcher.sh
 
 ## keybinds
 bindsym Ctrl+$mod+b exec --no-startup-id chromium
