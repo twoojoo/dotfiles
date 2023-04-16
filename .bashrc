@@ -32,7 +32,7 @@ export NODE_PATH="$(which node)"
 
 unset npm_config_prefix
 
-PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
+PS1=" \u: \[\033[01;1m\]\w\[\033[m\] \$ "
 
 source .smartpricing.bashrc
 
