@@ -158,7 +158,10 @@ exec --no-startup-id python $HOME/Scripts/i3-hud-menu/hud-menu-service.py
 exec --no-startup-id i3-layouts
 exec --no-startup-id thunar --daemon
 exec --no-startup-id dbus-send --type=method_call --dest=org.kde.yakuake /yakuake/window org.kde.yakuake.toggleWindowState
-bindsym $mod+Return exec --no-startup-id $HOME/Projects/bash/1launcher/menu.sh
+
+## rofi scripts key bindings
+bindsym Ctrl+$mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-path-launcher.sh
+bindsym $mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-chromium-bookmarks.sh
 
 ## keybinds
 bindsym Ctrl+$mod+b exec --no-startup-id chromium
