@@ -32,12 +32,22 @@ export NODE_PATH="$(which node)"
 
 unset npm_config_prefix
 
-PS1=" \u: \[\033[01;1m\]\w\[\033[m\] \$ "
+function get_git_branch {
+	git_branch_txt=""
+	git_branch="$(git rev-parse --abbrev-ref HEAD 2> /dev/null)" 
+	if [[ $git_branch != "" ]]; then git_branch_txt="[$git_branch] "; fi
+	printf "$git_branch_txt"
+}
+
+PS1=" \u: \[\033[01;1m\]\w\[\033[m\] \$(get_git_branch)\$ "
+
+unset git_branch
+unset git_branch_txt
 
 source .smartpricing.bashrc
 
 alias testss='f () { msg="$*"; echo $str; unset -f f; }; f'
 
-clear
+# clear
 
 
