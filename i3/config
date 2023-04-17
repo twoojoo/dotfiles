@@ -163,6 +163,7 @@ exec --no-startup-id dbus-send --type=method_call --dest=org.kde.yakuake /yakuak
 bindsym Ctrl+$mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-path-launcher.sh
 bindsym $mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-chromium-bookmarks.sh -c ~/.config/i3/scripts/mv_to_win_ws.sh chromium  
 bindsym Shift+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-window-switcher.sh
+bindsym Ctrl+Shift+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-todo-list.sh
 
 ## keybinds
 bindsym Ctrl+$mod+b exec --no-startup-id chromium
