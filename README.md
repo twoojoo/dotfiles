@@ -15,10 +15,10 @@ Arch Linux
 - **nm-applet** (system tray network applet)
 - **xbindkeys** (some shortcuts)
 - **terminator** (terminal)
-- **taskwarrior-tui** (todo list)
 - **i3lock** (lock screen, [i3](https://github.com/i3/i3lock))
 - **xautolock** (auto lock screen)
 - **i3-hud-menu** (app menu with dmenu, [morrolinux](https://github.com/morrolinux/i3-hud-menu))
+- my [**rofi-uils**](https://github.com/twoojoo/rofi-utils)
 - **picomp ??** (compositor)
 
 ## notes
