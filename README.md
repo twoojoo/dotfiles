@@ -18,7 +18,7 @@ Arch Linux
 - **i3lock** (lock screen, [i3](https://github.com/i3/i3lock))
 - **xautolock** (auto lock screen)
 - **i3-hud-menu** (app menu with dmenu, [morrolinux](https://github.com/morrolinux/i3-hud-menu))
-- my [**rofi-uils**](https://github.com/twoojoo/rofi-utils)
+- my [**rofi-utils**](https://github.com/twoojoo/rofi-utils)
 - **picomp ??** (compositor)
 
 ## notes
