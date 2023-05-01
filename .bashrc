@@ -9,6 +9,9 @@ alias trash='trash-put'
 ## git alias add . + commit + push
 alias gitall='f(){ msg="$*"; git status; git add $(pwd); git commit -m "$msg"; git push; unset -f f; }; f'
 
+#git log
+alias gitlog='git log --graph --oneline --decorate'
+
 ## colored ls
 alias ls='ls --color=auto'
 
@@ -39,7 +42,7 @@ function get_git_branch {
 	printf "$git_branch_txt"
 }
 
-PS1=" \u: \[\033[01;1m\]\W\[\033[m\] \$(get_git_branch)> "
+PS1="\u: \[\033[01;1m\]\W\[\033[m\] \$(get_git_branch)> "
 
 unset git_branch
 unset git_branch_txt
