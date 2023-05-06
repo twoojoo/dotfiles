@@ -20,7 +20,8 @@ Arch Linux
 - **i3-hud-menu** (app menu with dmenu, [morrolinux](https://github.com/morrolinux/i3-hud-menu))
 - my [**rofi-utils**](https://github.com/twoojoo/rofi-utils)
 - **picomp ??** (compositor)
-- **cbatticon**
+- **cbatticon** (system tray battery icon)
+- **pavucontrol** (GUI audio input/output management)
 
 ## notes
 
