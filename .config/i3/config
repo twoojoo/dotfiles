@@ -133,15 +133,12 @@ client.urgent           #221D2F #221D2F #ffffff #221D2F   #221D2F
 client.placeholder      #221D2F #221D2F #ffffff #221D2F   #221D2F
 client.focused_inactive #221D2F #221D2F #ffffff #221D2F   #221D2F
 
-border_radius 5
-
-gaps inner 8
-gaps outer 4
-
-smart_gaps inverse_outer
-
+#border_radius 5
+#gaps inner 8
+#gaps outer 4
+#smart_gaps inverse_outer
 smart_borders on
-smart_borders no_gaps
+#smart_borders no_gaps
 
 exec --no-startup-id feh --bg-scale ~/Downloads/wp9034206-pink-lofi-wallpapers.png
 exec --no-startup-id python $HOME/Scripts/i3-hud-menu/hud-menu-service.py
