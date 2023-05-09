@@ -2,9 +2,9 @@ name: sp-suite-stage
 root: ~/
 
 windows:
-  - downloader:
+  - reservations:
       panes:
-        - downloader prod 1
-        - parser prod 1
-        - checker prod 1
-        - watcher prod 1
+        - downloader stage 1
+        - parser stage 1
+        - checker stage 1
+        - watcher stage 1
