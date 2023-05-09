@@ -1,0 +1,6 @@
+name: Personal - Terminals
+
+windows:
+  - bash:
+    panes: 
+      - echo
