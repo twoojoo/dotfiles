@@ -16,6 +16,7 @@ windows:
       panes:
         - parser prod 1
         - parser prod 2
+        - parser prod 3
 
   - checker:
       layout: even-horizontal

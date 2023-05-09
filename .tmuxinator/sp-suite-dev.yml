@@ -9,3 +9,8 @@ windows:
         - npm run start reservation-parser
         - npm run start reservation-checker
         - npm run start events-watcher
+
+  - utils:
+      root: ~/SmartPricing/sources/sp-integration-suite
+      panes:
+        - npm run start integration-utils
