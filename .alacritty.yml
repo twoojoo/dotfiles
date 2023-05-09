@@ -200,7 +200,7 @@
 colors:
   # Default colors
   primary:
-   background: '#1d1927'
+   background: '#1D1927'
    foreground: '#fefefe'
 
     # Bright and dim foreground colors
