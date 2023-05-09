@@ -52,3 +52,4 @@ source "$(pwd)/.smartpricing.bashrc"
 clear
 
 
+

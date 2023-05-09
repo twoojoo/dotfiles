@@ -27,7 +27,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym Ctrl+$mod+T exec --no-startup-id terminator 
+bindsym Ctrl+$mod+T exec --no-startup-id terminator -x 'tmux a -t terminals || tmux new -s "terminals" && clear'
 #-p hacker
 
 # kill focused window
