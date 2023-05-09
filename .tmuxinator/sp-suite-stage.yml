@@ -9,6 +9,10 @@ windows:
         - checker stage 1
         - watcher stage 1
 
+  - gpcscli:
+      panes:
+        - gpcscli stage
+
   - utils:
       layout: even-horizontal
       panes:

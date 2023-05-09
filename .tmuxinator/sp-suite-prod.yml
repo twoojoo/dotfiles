@@ -7,6 +7,10 @@ windows:
       panes:
         - downloader prod 1
 
+  - gpcscli:
+      panes:
+        - gpcscli prod
+
   - parser:
       layout: even-horizontal
       panes:
