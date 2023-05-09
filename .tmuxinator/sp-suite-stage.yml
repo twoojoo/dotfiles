@@ -8,3 +8,8 @@ windows:
         - parser stage 1
         - checker stage 1
         - watcher stage 1
+
+  - utils:
+      layout: even-horizontal
+      panes:
+        - intutils stage 1

@@ -19,3 +19,8 @@ windows:
         - checker prod 1
         - checker prod 2
         - checker prod 3
+
+  - utils:
+      layout: even-horizontal
+      panes:
+        - intutils prod 1
