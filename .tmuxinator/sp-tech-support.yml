@@ -3,6 +3,7 @@ root: ~/
 
 windows:
   - tech-support:
+      layout: even-horizontal
       panes:
         - sptslogs
         - sptsexec
