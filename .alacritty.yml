@@ -23,7 +23,7 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-#window:
+window:
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. Both lines and columns
@@ -46,9 +46,9 @@
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  #padding:
+  padding:
   #  x: 0
-  #  y: 0
+    y: 2
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -200,7 +200,8 @@ font:
 colors:
   # Default colors
   primary:
-   background: '#1D1927'
+   background: '#242936'
+   # foreground: '#CCCAC2'
    foreground: '#fefefe'
 
     # Bright and dim foreground colors
@@ -295,11 +296,14 @@ colors:
   # Normal colors
   normal:
    black:   '#1d1f21'
+   # red:     '#F28779'
    red:     '#ff5b36'
+   # green:   '#CFFC78'
    green:   '#94d446'
+   # yellow:  '#FFD173'
    yellow:  '#f5ff36'
-   blue:    '#039BE5'
-   # blue:    '#81a2be'
+   # blue:    '#5CCFE6'
+   blue:    '#81a2be'
    magenta: '#b294bb'
    cyan:    '#8abeb7'
    white:   '#c5c8c6'
