@@ -1,0 +1,1 @@
+tmux a -t terminals || tmux new -s "terminals"
