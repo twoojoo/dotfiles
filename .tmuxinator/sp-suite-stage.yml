@@ -1,0 +1,10 @@
+name: sp-suite-stage
+root: ~/
+
+windows:
+  - downloader:
+      panes:
+        - downloader prod 1
+        - parser prod 1
+        - checker prod 1
+        - watcher prod 1

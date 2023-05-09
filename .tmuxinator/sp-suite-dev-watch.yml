@@ -1,0 +1,11 @@
+name: sp-suite-dev-watch
+root: ~/SmartPricing
+
+windows:
+  - suite-dev:
+      root: ~/SmartPricing/sources/sp-integration-suite
+      panes:
+        - npm run dev reservation-downloader
+        - npm run dev reservation-parser
+        - npm run dev reservation-checker
+        - npm run dev events-watcher

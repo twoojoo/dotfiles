@@ -1,0 +1,21 @@
+name: sp-suite-prod
+root: ~/
+
+windows:
+  - downloader:
+      layout: even-horizontal
+      panes:
+        - downloader prod 1
+
+  - parser:
+      layout: even-horizontal
+      panes:
+        - parser prod 1
+        - parser prod 2
+
+  - checker:
+      layout: even-horizontal
+      panes:
+        - checker prod 1
+        - checker prod 2
+        - checker prod 3

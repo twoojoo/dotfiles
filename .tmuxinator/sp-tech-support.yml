@@ -1,0 +1,8 @@
+name: sp-tech-support
+root: ~/
+
+windows:
+  - tech-support:
+      panes:
+        - sptslogs
+        - sptsexec
