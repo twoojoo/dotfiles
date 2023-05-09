@@ -27,7 +27,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym Ctrl+$mod+T exec --no-startup-id WINIT_X11_SCALE_FACTOR=0.90 alacritty
+bindsym Ctrl+$mod+T exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Escape kill
@@ -155,6 +155,7 @@ exec --no-startup-id cbatticon
 exec --no-startup-id yakuake
 
 ## rofi scripts key bindings
+bindsym Ctrl+$mod+x exec --no-startup-id $HOME/Scripts/rofi/rofi-tmuxinator.sh
 bindsym Ctrl+$mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-path-launcher.sh
 bindsym $mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-chromium-bookmarks.sh -c ~/.config/i3/scripts/mv_to_win_ws.sh chromium  
 bindsym Shift+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-window-switcher.sh
