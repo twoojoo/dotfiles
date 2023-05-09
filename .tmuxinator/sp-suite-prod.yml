@@ -2,30 +2,36 @@ name: Smartpricing - Integration Suite - PROD
 root: ~/
 
 windows:
-  - downloader:
+  - DOWNLOADER:
       layout: even-horizontal
       panes:
         - downloader prod 1
 
-  - gpcscli:
+  - GATEWAY:
+      layout: even-horizontal
       panes:
-        - gpcscli prod
+        - gateway prod 1
+        - gateway prod 2
 
-  - parser:
+  - PARSER:
       layout: even-horizontal
       panes:
         - parser prod 1
         - parser prod 2
         - parser prod 3
 
-  - checker:
+  - CHECKER:
       layout: even-horizontal
       panes:
         - checker prod 1
         - checker prod 2
         - checker prod 3
 
-  - utils:
+  - UTILS:
       layout: even-horizontal
       panes:
         - intutils prod 1
+
+  - CLI:
+      panes:
+        - gpcscli prod

@@ -2,20 +2,20 @@ name: Smartpricing - Integration Suite - STAGE
 root: ~/
 
 windows:
-  - reservations:
+  - RESERVATIONS:
       panes:
         - downloader stage 1
         - parser stage 1
         - checker stage 1
         - watcher stage 1
 
-  - gpcscli:
-      panes:
-        - gpcscli stage
-
-  - utils:
+  - UTILS:
       layout: even-horizontal
       panes:
         - intutils stage 1
+
+  - CLI:
+      panes:
+        - gpcscli stage
 
         
