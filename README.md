@@ -10,6 +10,7 @@ Arch Linux
 
 - **i3** (window manager, autostart, shortcuts)
 - **tmux** (terminal multiplexer)
+- **tmuxinator** (tmux layouts)
 - **polybar** (status bar)
 - **polybar-themes** ([adi1090x](https://github.com/adi1090x/polybar-themes))
 - **rofi** (start menu)
