@@ -9,7 +9,8 @@ Arch Linux
 ## dependencies
 
 - **i3** (window manager, autostart, shortcuts)
-- **polybar** (top bar)
+- **tmux** (terminal multiplexer)
+- **polybar** (status bar)
 - **polybar-themes** ([adi1090x](https://github.com/adi1090x/polybar-themes))
 - **rofi** (start menu)
 - **nm-applet** (system tray network applet)
