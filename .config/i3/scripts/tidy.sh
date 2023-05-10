@@ -1,4 +1,4 @@
-## tydy workspaces by moving certain window classess
+## tidy workspaces by moving certain window classess
 ## in specific workspaces and anything else in the last one
 
 BROWSERS_WS=1
