@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#tmux
+alias killtmux='tmux kill-server'
+
 #rmtrash alias (delete moving in trash)
 alias del='trash-put'
 alias trash='trash-put'
