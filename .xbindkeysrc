@@ -10,7 +10,7 @@
 ### launch the polybar menu
 
 # "$HOME/.config/polybar/panels/scripts/launcher.sh --budgie"
-"dmenu_run -b -nb '#221D2F' -sf '#221D2F' -sb '#039BE5' -nf '#fefefe' "
+"dmenu_run -b -nb '#221D2F' -sf '#221D2F' -sb '#039BE5' -nf '#ffffff' "
 	Super_L
 
 ######################
