@@ -156,7 +156,7 @@ exec --no-startup-id yakuake
 ## rofi scripts key bindings
 bindsym Ctrl+$mod+x exec --no-startup-id $HOME/Scripts/rofi/rofi-tmuxinator.sh
 bindsym Ctrl+$mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-path-launcher.sh
-bindsym $mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-chromium-bookmarks.sh -c ~/.config/i3/scripts/mv_to_win_ws.sh chromium  
+bindsym $mod+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-chromium-bookmarks.sh -c i3-msg workspace number $ws1
 bindsym Shift+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-window-switcher.sh
 bindsym Ctrl+Shift+Return exec --no-startup-id $HOME/Scripts/rofi/rofi-todo-list.sh
 bindsym $mod+Shift+e exec --no-startup-id $HOME/Scripts/rofi/rofi-system-menu.sh
@@ -195,3 +195,33 @@ bindsym Control+Mod1+l exec --no-startup-id "i3lock -c 000000"
 
 # auto lock the screen
 exec --no-startup-id "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\""
+
+# workspace-program-assigmnet
+
+#browsers
+assign [class="Chromium"] 1
+assign [class="Firefox"] 1
+
+#editors
+assign [class="Subl"] 2
+assign [class="code-oss"] 2
+assign [class="kate"] 2
+
+#database
+assign [class="beekeeper-studio"] 3
+assign [class="DBeaver"] 3
+
+#k8s
+assign [class="Lens"] 4
+
+#http clients
+assign [class="Insomnia"] 5
+assign [class="Postman"] 5
+
+#terminals
+assign [class="Alacritty"] 6
+assign [class="konsole"] 6
+assign [class="Terminator"] 6
+
+
+
