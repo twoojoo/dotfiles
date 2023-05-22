@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#kaf completion
+kaf completion bash > /etc/bash_completion.d/kaf
+
 #tmux
 alias killtmux='tmux kill-server'
 
