@@ -9,9 +9,10 @@ windows:
         - checker stage 1
         - watcher stage 1
 
-  - UTILS-CLI:
-      layout: even-horizontal
+  - UTILS-CLI-RECONSUME:
+      layout: main-vertical
       panes:
         - intutils stage 1
         - gpcscli stage
+        - parser_reconsume stage
         

@@ -9,8 +9,8 @@
 ### the Super_L key work with i3 as a stand alone key to 
 ### launch the polybar menu
 
-# "$HOME/.config/polybar/panels/scripts/launcher.sh --budgie"
-"dmenu_run -b -nb '#221D2F' -sf '#221D2F' -sb '#039BE5' -nf '#ffffff' "
+"$HOME/.config/polybar/panels/scripts/launcher.sh --budgie"
 	Super_L
+#"dmenu_run -b -nb '#221D2F' -sf '#221D2F' -sb '#039BE5' -nf '#ffffff' "
 
 ######################
