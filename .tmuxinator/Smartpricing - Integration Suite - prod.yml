@@ -6,19 +6,21 @@ windows:
       layout: even-horizontal
       panes:
         - downloader prod 1
+        - downloader prod 2
 
   - GATEWAY:
       layout: even-horizontal
       panes:
         - gateway prod 1
         - gateway prod 2
+        - gateway prod 3
 
   - PARSER:
-      layout: even-horizontal
       panes:
         - parser prod 1
         - parser prod 2
         - parser prod 3
+        - parser prod 4
 
   - CHECKER:
       layout: even-horizontal
