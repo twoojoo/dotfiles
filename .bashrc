@@ -3,7 +3,7 @@
 #kaf completion
 kaf completion bash > /etc/bash_completion.d/kaf
 
-alias gpt='~/Downloads/gpt-cli/gpt.py dev'
+alias gpt='~/Downloads/gpt-cli/gpt.py dev --no_price'
 
 #tmux
 alias killtmux='tmux kill-server'
