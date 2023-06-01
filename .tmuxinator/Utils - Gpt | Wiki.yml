@@ -1,0 +1,8 @@
+name: Personal - Terminals
+
+windows:
+  - WIKI | GPT:
+      layout: even-horizontal
+      panes:
+        - ~/Downloads/gpt-cli/gpt.py dev
+        - wiki-tui

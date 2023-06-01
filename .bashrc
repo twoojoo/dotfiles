@@ -59,6 +59,7 @@ unset git_branch_txt
 
 #sp-aliases
 source "$(pwd)/.smartpricing.bashrc"
+source "$(pwd)/.secrets.bashrc"
 
 clear
 
