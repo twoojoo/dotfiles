@@ -3,32 +3,19 @@
 #kaf completion
 kaf completion bash > /etc/bash_completion.d/kaf
 
-alias gpt='~/Downloads/gpt-cli/gpt.py dev --no_price'
-
-#tmux
-alias killtmux='tmux kill-server'
-
-#rmtrash alias (delete moving in trash)
+#aliases
+alias ls='ls --color=auto'
+alias mkdin='f(){ mkdir $1; cd $1; unset -f f;}; f'
 alias del='trash-put'
 alias trash='trash-put'
-
-## git alias add . + commit + push
 alias gitall='f(){ msg="$*"; git status; git add $(pwd); git commit -m "$msg"; git push; unset -f f; }; f'
-
-#git log
 alias gitlog='git log --graph --oneline --decorate'
-
-## colored ls
-alias ls='ls --color=auto'
-
-## create folder and cd into it
-alias mkdin='f(){ mkdir $1; cd $1; unset -f f;}; f'
+alias gpt='~/Downloads/gpt-cli/gpt.py dev --no_price'
+alias killtmux='tmux kill-server'
+alias polybar='bash ~/.config/polybar/launch.sh --panels'
 
 #fuck cmd
 eval "$(thefuck --alias)"
-
-## override polybar with custom theme
-alias polybar='bash ~/.config/polybar/launch.sh --panels'
 
 #### NVM & NODE ###
 
@@ -37,7 +24,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 export NODE_PATH="$(which node)"
 
-unset npm_config_prefix
+unset npm_config_prefix\
 
 ## prompt customization
 function get_git_branch {
@@ -52,7 +39,6 @@ PS1="\u: \[\033[01;1m\]\W\[\033[m\] \$(get_git_branch)> "
 unset git_branch
 unset git_branch_txt
 
-#sp-aliases
 source "$(pwd)/.smartpricing.bashrc"
 source "$(pwd)/.secrets.bashrc"
 
