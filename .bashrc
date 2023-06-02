@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #kaf completion
-kaf completion bash > /etc/bash_completion.d/kaf
+# kaf completion bash > /etc/bash_completion.d/kaf
 
 #aliases
 alias ls='ls --color=auto'
