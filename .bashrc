@@ -44,5 +44,4 @@ source "$(pwd)/.secrets.bashrc"
 
 clear
 
-
-
+# tmuxinator start "Utils - Terminals"
