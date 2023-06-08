@@ -2,19 +2,19 @@ name: Smartpricing - Integration Suite - PROD
 root: ~/
 
 windows:
-  - DOWNLOADER 1-3:
-      layout: even-horizontal
+  - DOWNLOADER 1-4:
       panes:
         - downloader prod 1
         - downloader prod 2
         - downloader prod 3
-
-  - DOWNLOADER 4-6:
-      layout: even-horizontal
-      panes:
         - downloader prod 4
+
+  - DOWNLOADER 5-8:
+      panes:
         - downloader prod 5
         - downloader prod 6
+        - downloader prod 7
+        - downloader prod 8
 
   - GATEWAY:
       layout: even-horizontal
