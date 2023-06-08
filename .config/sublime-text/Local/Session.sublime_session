@@ -1,0 +1,2585 @@
+{
+	"file_history":
+	[
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/cron_migration.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Simplebooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Messages.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/mocks/property_groups/base_property_group.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/mocks/raw_reservations/slope.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/parseReservationSmartpaying.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Passepartout.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Verticalbooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Slope.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/cfg/prod.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/reconsume.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/rawReservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/helm-chart/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/kafka.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/README.md",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Siteminder.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/mocks/smartpaying_reservations/slope.json",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-integration-service/prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-integration-service/front_prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-gpcs-cli/templates/deployment.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-gpcs-cli/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-gpcs-cli/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/partners/SlopeReservation.ts",
+		"/home/giovanni/Projects/dotfiles/.tmuxinator/Smartpricing - Integration Suite - prod.yml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/constants/MessageKind.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/.dockerignore",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/deploy.js",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service/cfg/prod.toml",
+		"/home/giovanni/.smartpricing.bashrc",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/cfg/stage.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/package.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Kognitiv.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/templates/cronjob.yaml",
+		"/home/giovanni/Projects/ansible/ansible-desktop/README.md",
+		"/home/giovanni/Projects/ansible/ansible-desktop/local.yml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/dates.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bedzzle.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Xenion.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/getPropertyGroupNetwork.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/specs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service/package.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service/src/integrations/partners/CinqueStelle.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/.dockerignore",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Roomcloud.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Quovai.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/CinqueStelle.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bemyguest.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Iperbooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/KrossBooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Mews.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Octorate.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/routes.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Alpinebits.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/upgrade_cron_jobs.sh",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/Dockerfile",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/checkReservationData.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/alicestream.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-gpcs-cron-jobs/index.js",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/reservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/handlers/receiveReservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/reservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/tsconfig.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/package.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.v2.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.v2.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.v2.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/integrationSpecs.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Hotelizer.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/httpLogging/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/httpLogs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/HttpClient.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/jobLogs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/reservationErrors.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationContext.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/automapping/utils.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/utils/route-model.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/autodiscovery.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/cache.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/fastify.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/propertyGroup.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/reservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/nightPrices.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/splitReservationByNumUnits.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/Smartpricing.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Asa.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beds24.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Begenius.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Besync.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Casablanca.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cbooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ciaobooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cubilis.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Dirs21.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Easichannel.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Elite.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ericsoft.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/HotelSpider.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ibelsa.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Madeep.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Myguestcare.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Protel.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sabee.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scidoo.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scrigno.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Smoobu.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/SMX.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sysdat.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Viato.ts"
+	],
+	"folder_history":
+	[
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite",
+		"/home/giovanni/SmartPricing/sources/sp-gpcs-interface",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service",
+		"/home/giovanni/SmartPricing/sources/sp-gpcs-cron-jobs",
+		"/home/giovanni/Projects/dotfiles",
+		"/home/giovanni/Projects/ansible/ansible-desktop",
+		"/home/giovanni/Projects/node/test-kafka-reconsume",
+		"/home/giovanni/Projects/node/kafka-reconsume",
+		"/home/giovanni/SmartPricing/sources/sp-integration-rest",
+		"/home/giovanni/Projects/scala/akka-data-proc",
+		"/home/giovanni/Projects/scala/scala-test-project",
+		"/home/giovanni/Projects/scala/my-akka-http-project",
+		"/home/giovanni/Projects/node/gpt-routing",
+		"/home/giovanni/Projects/node/vosk_gpt",
+		"/home/giovanni/Projects/scala/play-scala-seed",
+		"/home/giovanni/Projects/scala/xhttp4s-test-1/test-akka-http",
+		"/home/giovanni/Projects/scala/xhttp4s-test-1",
+		"/home/giovanni/Projects/scala/htt4s-test",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite-scala",
+		"/home/giovanni/Scripts/rofi",
+		"/home/giovanni/Projects/spark/bitnami",
+		"/home/giovanni/Projects/scala/test-art",
+		"/home/giovanni/Projects/scala/reservations",
+		"/home/giovanni/Projects/scala",
+		"/home/giovanni/SmartPricing/xmlParser",
+		"/home/giovanni/SmartPricing/sources/integrations",
+		"/home/giovanni/Projects/node/clusters",
+		"/home/giovanni/SmartPricing/sources/test-alicestream-types",
+		"/home/giovanni/SmartPricing/sources/alicestream",
+		"/home/giovanni/Projects/node/vosk",
+		"/home/giovanni/Projects/node/nodejs-driver",
+		"/home/giovanni/Projects/node/node-spark-test",
+		"/home/giovanni/SmartPricing/sources/onboarding_smartpaying",
+		"/home/giovanni/Projects/node/scylla-test",
+		"/home/giovanni/Projects/node/key-value-queue",
+		"/home/giovanni/Projects/go/test-ebitengine",
+		"/home/giovanni/Projects/go/await",
+		"/home/giovanni/Projects/go/tutorial",
+		"/home/giovanni/SmartPricing/sources/sp-cron-task",
+		"/home/giovanni/Projects/node/cleanerfish",
+		"/home/giovanni/Projects/node/nicli",
+		"/home/giovanni/Projects/alogrithms-course",
+		"/home/giovanni/Projects/node/waffle",
+		"/home/giovanni/Projects/node/nsq",
+		"/home/giovanni/SmartPricing/sources/sp-proxy",
+		"/home/giovanni/.tmuxinator",
+		"/home/giovanni/Projects/tidy_imports",
+		"/home/giovanni/Projects/node/dbtui",
+		"/home/giovanni/Projects/kata-machine",
+		"/home/giovanni/Projects/node/monorepo-test",
+		"/home/giovanni/Projects/node/microservice-framework",
+		"/home/giovanni/Projects/node/actio-test",
+		"/home/giovanni/integrations",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite.backup",
+		"/home/giovanni/SmartPricing/scylla-test",
+		"/home/giovanni/Projects/bash/1launcher",
+		"/home/giovanni/Projects/bash/rofi-path-manager",
+		"/home/giovanni/Projects/node/1launcher",
+		"/home/giovanni/.config/polybar/panels",
+		"/home/giovanni",
+		"/home/giovanni/SmartPricing/sources/sp-partners-gateway",
+		"/home/giovanni/Projects/node/nycli",
+		"/home/giovanni/Projects/node/sublime_launcher",
+		"/home/giovanni/.config/picom",
+		"/home/giovanni/Scripts/i3",
+		"/home/giovanni/Projects/rust/glutin",
+		"/home/giovanni/Projects/rust/piston_test",
+		"/home/giovanni/Scripts/i3-hud-menu",
+		"/home/giovanni/Projects/node/json_navigator",
+		"/home/giovanni/SmartPricing/sources/pgSchemaDumpCli"
+	],
+	"last_version": 4143,
+	"last_window_id": 601,
+	"log_indexing": false,
+	"next_update_check": 1686289231,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1036.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			0.0,
+			24.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"packa",
+						"packageVersion"
+					],
+					[
+						"buil",
+						"buildImageTag"
+					],
+					[
+						"Cr",
+						"CronJobKind"
+					],
+					[
+						"cong",
+						"config"
+					],
+					[
+						"Each",
+						"EachMessageHandler"
+					],
+					[
+						"On",
+						"OnReservations"
+					],
+					[
+						"on",
+						"onReservations"
+					],
+					[
+						"re",
+						"response"
+					],
+					[
+						"JSOV",
+						"JSONValue"
+					],
+					[
+						"dow",
+						"downloadReservations"
+					],
+					[
+						"Base",
+						"BasePipelineMessage"
+					],
+					[
+						"Reser",
+						"ReservationToDownload"
+					],
+					[
+						"Rese",
+						"ReservationParsed"
+					],
+					[
+						"Reservat",
+						"ReservationData"
+					],
+					[
+						"R",
+						"ReservationRaw"
+					],
+					[
+						"RESE",
+						"RESERVATION_MESSAGE_KIND"
+					],
+					[
+						"do",
+						"dotenv"
+					],
+					[
+						"co",
+						"config"
+					],
+					[
+						"kafkas",
+						"kafkaReconsume"
+					],
+					[
+						"da",
+						"dateFormat"
+					],
+					[
+						"Rout",
+						"RouteContext"
+					],
+					[
+						"FastifyRe",
+						"FastifyRequest"
+					],
+					[
+						"Proper",
+						"PropertyGroup"
+					],
+					[
+						"pr",
+						"prices-v2"
+					],
+					[
+						"mat",
+						"matchEndpoint"
+					],
+					[
+						"Fas",
+						"FastifyRegister"
+					],
+					[
+						"P",
+						"POST"
+					],
+					[
+						"Route",
+						"RouteOptions"
+					],
+					[
+						"Con",
+						"ConfigurationParameters"
+					],
+					[
+						"Fastify",
+						"FastifyInstance"
+					],
+					[
+						"Random",
+						"Random - scala.util"
+					],
+					[
+						"Prin",
+						"PrintAkktor com.dataproc"
+					],
+					[
+						"Beh",
+						"Behavior"
+					],
+					[
+						"ActorCo",
+						"TypedActorContext - akka.actor.typed"
+					],
+					[
+						"sp",
+						"spawn[U](behavior: Behavior[U], name: String, props: Props = ...): ActorRef[U]"
+					],
+					[
+						"Ini",
+						"InitializeMessage com.dataproc.CounterMain"
+					],
+					[
+						"Be",
+						"Behaviors akka.actor.typed.scaladsl"
+					],
+					[
+						"set",
+						"setup[T](factory: ActorContext[T] => Behavior[T]): Behavior[T]"
+					],
+					[
+						"RE",
+						"RESET: \"\\u001B[0m\""
+					],
+					[
+						"Bu",
+						"BufferedSource scala.io"
+					],
+					[
+						"Buffered",
+						"BufferedInputStream - java.io"
+					],
+					[
+						"to",
+						"toString(): String"
+					],
+					[
+						"BL",
+						"BLUE: \"\\u001B[34m\""
+					],
+					[
+						"Re",
+						"REVERSED: \"\\u001B[7m\""
+					],
+					[
+						"pri",
+						"println(): Unit"
+					],
+					[
+						"Obj",
+						"ObjectKey"
+					],
+					[
+						"F",
+						"FromIntervalWithGenerator"
+					],
+					[
+						"FromI",
+						"FromIntervalWithoutGenerator"
+					],
+					[
+						"Extr",
+						"ExtractReturnTypes"
+					],
+					[
+						"Tas",
+						"TaskAfterSource"
+					],
+					[
+						"from",
+						"fromObject"
+					],
+					[
+						"fi",
+						"filterArray"
+					],
+					[
+						"l",
+						"length"
+					],
+					[
+						"le",
+						"length"
+					],
+					[
+						"filt",
+						"filterArray"
+					],
+					[
+						"Stora",
+						"StorageKind"
+					],
+					[
+						"kS",
+						"kSource"
+					],
+					[
+						"pat",
+						"parseInt"
+					],
+					[
+						"Ex",
+						"ExtendTask"
+					],
+					[
+						"K",
+						"kSink"
+					],
+					[
+						"loc",
+						"localClient"
+					],
+					[
+						"Ka",
+						"KafkaSink"
+					],
+					[
+						"Stor",
+						"StorageKind"
+					],
+					[
+						"S",
+						"StorageKind"
+					],
+					[
+						"Sto",
+						"MakeStorage"
+					],
+					[
+						"Key",
+						"KeyType"
+					],
+					[
+						"Task",
+						"TaskOfObject"
+					],
+					[
+						"s",
+						"split"
+					],
+					[
+						"fl",
+						"flatMap"
+					],
+					[
+						"un",
+						"unlockMicrophone"
+					],
+					[
+						"lock",
+						"lockMicrophone"
+					],
+					[
+						"se",
+						"setAction"
+					],
+					[
+						"p",
+						"phrasesToSpeech"
+					],
+					[
+						"createC",
+						"createChatCompletion"
+					],
+					[
+						"Op",
+						"OpenAIApi"
+					],
+					[
+						"setAction",
+						"setAction"
+					],
+					[
+						"pa",
+						"parseInt"
+					],
+					[
+						"ra",
+						"randomUUID"
+					],
+					[
+						"ct",
+						"node:crypto"
+					],
+					[
+						"e",
+						"extraParams?"
+					],
+					[
+						"as",
+						"asProducer?"
+					],
+					[
+						"pro",
+						"propertyGroup"
+					],
+					[
+						"rec",
+						"reconsumeFrom"
+					],
+					[
+						"isSa",
+						"isSameOrAfter"
+					],
+					[
+						"pg",
+						"pgId"
+					],
+					[
+						"sendin",
+						"SendingMessageArrow"
+					],
+					[
+						"Reserva",
+						"ReservationsRaw"
+					],
+					[
+						"kaf",
+						"kafkaClientLocal"
+					],
+					[
+						"ran",
+						"randomUUID"
+					],
+					[
+						"RawRe",
+						"ReservationRawMessage"
+					],
+					[
+						"kafka",
+						"kafkaClientLocal"
+					],
+					[
+						"ka",
+						"kafkaClientLocal"
+					],
+					[
+						"get",
+						"getAllMetatada"
+					],
+					[
+						"ex",
+						"externalId"
+					],
+					[
+						"bui",
+						"buildCassandraClient"
+					],
+					[
+						"ge",
+						"getReservationExternalId"
+					],
+					[
+						"in",
+						"integration"
+					],
+					[
+						"IN",
+						"INT_LIB"
+					],
+					[
+						"c",
+						"cqlClient"
+					],
+					[
+						"AS",
+						"ASTRA_CONNECTION_BUNDLE"
+					],
+					[
+						"g",
+						"getSpecs"
+					],
+					[
+						"Integr",
+						"IntegrationSpecs"
+					],
+					[
+						"Par",
+						"Partners"
+					],
+					[
+						"au",
+						"autoCommit"
+					],
+					[
+						"toBE",
+						"toBeFalsy"
+					],
+					[
+						"time",
+						"timeStamp"
+					],
+					[
+						"tim",
+						"timeLog"
+					],
+					[
+						"send",
+						"sendSlackMessage"
+					],
+					[
+						"Reserv",
+						"ReservationsRawRetain"
+					],
+					[
+						"getRe",
+						"getReservationUpToNthVersion"
+					],
+					[
+						"push",
+						"pushRawReservationIfChanged"
+					],
+					[
+						"readf",
+						"readFileSync"
+					],
+					[
+						"ha",
+						"handleError"
+					],
+					[
+						"sd",
+						"stdout"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"Res",
+						"ReservationsRawRetain"
+					],
+					[
+						"Inter",
+						"IntegrationSpecs"
+					],
+					[
+						"ac",
+						"reservationsAck?"
+					],
+					[
+						"print",
+						"printIncomingMessage"
+					],
+					[
+						"pu",
+						"pull"
+					],
+					[
+						"sync",
+						"syncToDate"
+					],
+					[
+						"parse",
+						"parseInt"
+					],
+					[
+						"par",
+						"parseInt"
+					],
+					[
+						"dele",
+						"deletePriceRecord"
+					],
+					[
+						"m",
+						"minutes"
+					],
+					[
+						"SP",
+						"Span"
+					],
+					[
+						"ho",
+						"hours"
+					],
+					[
+						"SE",
+						"seconds"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"i3",
+						"Set Syntax: i3-wm Config"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"scala",
+						"Scalafmt: Format current file"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
+						"syn ts",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"theme",
+						"UI: Customize Theme"
+					],
+					[
+						"inden",
+						"Indent JSON"
+					],
+					[
+						"ma",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"mark",
+						"Set Syntax: Markdown"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"jso",
+						"Set Syntax: JSON"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"reso",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"window",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setwin",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"eas",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"remv",
+						"Package Control: Remove Channel"
+					],
+					[
+						"open woe",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"work",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"easy",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"for",
+						"LSP: Format File"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"simpl",
+						"SimpleFuzzy: Active Project…"
+					],
+					[
+						"terminus se",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"mar",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"i",
+						"Indent JSON"
+					],
+					[
+						"nav",
+						"File Navigator: Open"
+					],
+					[
+						"m",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"keyb",
+						"Preferences: Key Bindings"
+					],
+					[
+						"inde",
+						"Indent JSON"
+					],
+					[
+						"js",
+						"Set Syntax: JSON"
+					],
+					[
+						"ty",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"synt typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"ind",
+						"Indent XML"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"isnt",
+						"Package Control: Install Package"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"forma",
+						"LSP: Format File"
+					],
+					[
+						"format",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"formatt",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"j",
+						"Set Syntax: JSON"
+					],
+					[
+						"term",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"formatter",
+						"Formatter: Beautify With ESLint"
+					],
+					[
+						"termi",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"ui",
+						"UI: Customize Theme"
+					],
+					[
+						"lsp-t",
+						"Preferences: LSP-typescript Settings"
+					],
+					[
+						"eslin",
+						"ESLint"
+					],
+					[
+						"linter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"subl",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublime",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"typescript",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"ui tm",
+						"UI: Select Theme"
+					],
+					[
+						"linte",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"lin",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"lint",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"linter setti",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimeLinter sett",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimelinter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"inste",
+						"Package Control: Install Package"
+					],
+					[
+						"a",
+						"ArcticTypescript: Reopen Project (after config changes)"
+					],
+					[
+						"the",
+						"UI: Select Theme"
+					],
+					[
+						"arct",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typesc",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"fmt",
+						"Fmt: Format Selection"
+					],
+					[
+						"codeforma",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"codeF",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"isntal",
+						"Package Control: Install Package"
+					],
+					[
+						"ui ",
+						"UI: Select Theme"
+					],
+					[
+						"ui t",
+						"UI: Select Theme"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"select col",
+						"UI: Select Color Scheme"
+					],
+					[
+						"terminus",
+						"Terminus: Toggle Panel"
+					],
+					[
+						"termin",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-prod.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/routes.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/deploy.js",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Alpinebits.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/upgrade_cron_jobs.sh",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/checkReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/cron_migration.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/kafka.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/alicestream.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/integrationSpecs.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Hotelizer.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/httpLogging/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/httpLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/handlers/receiveReservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/getPropertyGroupNetwork.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/jobLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/reservationErrors.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/CinqueStelle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationContext.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/automapping/utils.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/reconsume.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/utils/route-model.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/autodiscovery.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/fastify.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/nightPrices.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/splitReservationByNumUnits.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/Smartpricing.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Asa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beds24.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bedzzle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Begenius.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bemyguest.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Besync.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Casablanca.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ciaobooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cubilis.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Dirs21.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Easichannel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Elite.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ericsoft.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/HotelSpider.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ibelsa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Iperbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Kognitiv.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/KrossBooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Madeep.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Mews.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Myguestcare.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Octorate.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Passepartout.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Protel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Quovai.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Roomcloud.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sabee.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scidoo.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scrigno.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Simplebooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Siteminder.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Slope.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Smoobu.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/SMX.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sysdat.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Verticalbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Viato.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Vioma.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/WebHotelier.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Wubook.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Xenion.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zak.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zimmersoftware.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/models/Integration.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/types/lib.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Time.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Got.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/dates.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JSONValue.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/ReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/constants/MessageKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationSpecs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/ErmesHotels.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Messages.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/interfaces/http.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JobLogKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/GatewayMiddlewares.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/nightPriceCheker.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/schemas/reservation.schema.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/tsconfig.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/helm-chart/Chart.yaml"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 391.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"prote",
+					"brem",
+					"formatReservationSB",
+					"formatReservationsSB",
+					"sb",
+					"db",
+					"smartpa",
+					"ack",
+					"CronJob"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 127.0
+			},
+			"menu_visible": false,
+			"output.Fmt":
+			{
+				"height": 150.0
+			},
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 156.0
+			},
+			"output.Terminus":
+			{
+				"height": 563.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 156.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups-dummy":
+			{
+				"height": 0.0
+			},
+			"output.references":
+			{
+				"height": 439.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 350.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 592.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 378.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1920.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"packa",
+						"packageVersion"
+					],
+					[
+						"buil",
+						"buildImageTag"
+					],
+					[
+						"Cr",
+						"CronJobKind"
+					],
+					[
+						"cong",
+						"config"
+					],
+					[
+						"Each",
+						"EachMessageHandler"
+					],
+					[
+						"On",
+						"OnReservations"
+					],
+					[
+						"on",
+						"onReservations"
+					],
+					[
+						"re",
+						"response"
+					],
+					[
+						"JSOV",
+						"JSONValue"
+					],
+					[
+						"dow",
+						"downloadReservations"
+					],
+					[
+						"Base",
+						"BasePipelineMessage"
+					],
+					[
+						"Reser",
+						"ReservationToDownload"
+					],
+					[
+						"Rese",
+						"ReservationParsed"
+					],
+					[
+						"Reservat",
+						"ReservationData"
+					],
+					[
+						"R",
+						"ReservationRaw"
+					],
+					[
+						"RESE",
+						"RESERVATION_MESSAGE_KIND"
+					],
+					[
+						"do",
+						"dotenv"
+					],
+					[
+						"co",
+						"config"
+					],
+					[
+						"kafkas",
+						"kafkaReconsume"
+					],
+					[
+						"da",
+						"dateFormat"
+					],
+					[
+						"Rout",
+						"RouteContext"
+					],
+					[
+						"FastifyRe",
+						"FastifyRequest"
+					],
+					[
+						"Proper",
+						"PropertyGroup"
+					],
+					[
+						"pr",
+						"prices-v2"
+					],
+					[
+						"mat",
+						"matchEndpoint"
+					],
+					[
+						"Fas",
+						"FastifyRegister"
+					],
+					[
+						"P",
+						"POST"
+					],
+					[
+						"Route",
+						"RouteOptions"
+					],
+					[
+						"Con",
+						"ConfigurationParameters"
+					],
+					[
+						"Fastify",
+						"FastifyInstance"
+					],
+					[
+						"Random",
+						"Random - scala.util"
+					],
+					[
+						"Prin",
+						"PrintAkktor com.dataproc"
+					],
+					[
+						"Beh",
+						"Behavior"
+					],
+					[
+						"ActorCo",
+						"TypedActorContext - akka.actor.typed"
+					],
+					[
+						"sp",
+						"spawn[U](behavior: Behavior[U], name: String, props: Props = ...): ActorRef[U]"
+					],
+					[
+						"Ini",
+						"InitializeMessage com.dataproc.CounterMain"
+					],
+					[
+						"Be",
+						"Behaviors akka.actor.typed.scaladsl"
+					],
+					[
+						"set",
+						"setup[T](factory: ActorContext[T] => Behavior[T]): Behavior[T]"
+					],
+					[
+						"RE",
+						"RESET: \"\\u001B[0m\""
+					],
+					[
+						"Bu",
+						"BufferedSource scala.io"
+					],
+					[
+						"Buffered",
+						"BufferedInputStream - java.io"
+					],
+					[
+						"to",
+						"toString(): String"
+					],
+					[
+						"BL",
+						"BLUE: \"\\u001B[34m\""
+					],
+					[
+						"Re",
+						"REVERSED: \"\\u001B[7m\""
+					],
+					[
+						"pri",
+						"println(): Unit"
+					],
+					[
+						"Obj",
+						"ObjectKey"
+					],
+					[
+						"F",
+						"FromIntervalWithGenerator"
+					],
+					[
+						"FromI",
+						"FromIntervalWithoutGenerator"
+					],
+					[
+						"Extr",
+						"ExtractReturnTypes"
+					],
+					[
+						"Tas",
+						"TaskAfterSource"
+					],
+					[
+						"from",
+						"fromObject"
+					],
+					[
+						"fi",
+						"filterArray"
+					],
+					[
+						"l",
+						"length"
+					],
+					[
+						"le",
+						"length"
+					],
+					[
+						"filt",
+						"filterArray"
+					],
+					[
+						"Stora",
+						"StorageKind"
+					],
+					[
+						"kS",
+						"kSource"
+					],
+					[
+						"pat",
+						"parseInt"
+					],
+					[
+						"Ex",
+						"ExtendTask"
+					],
+					[
+						"K",
+						"kSink"
+					],
+					[
+						"loc",
+						"localClient"
+					],
+					[
+						"Ka",
+						"KafkaSink"
+					],
+					[
+						"Stor",
+						"StorageKind"
+					],
+					[
+						"S",
+						"StorageKind"
+					],
+					[
+						"Sto",
+						"MakeStorage"
+					],
+					[
+						"Key",
+						"KeyType"
+					],
+					[
+						"Task",
+						"TaskOfObject"
+					],
+					[
+						"s",
+						"split"
+					],
+					[
+						"fl",
+						"flatMap"
+					],
+					[
+						"un",
+						"unlockMicrophone"
+					],
+					[
+						"lock",
+						"lockMicrophone"
+					],
+					[
+						"se",
+						"setAction"
+					],
+					[
+						"p",
+						"phrasesToSpeech"
+					],
+					[
+						"createC",
+						"createChatCompletion"
+					],
+					[
+						"Op",
+						"OpenAIApi"
+					],
+					[
+						"setAction",
+						"setAction"
+					],
+					[
+						"pa",
+						"parseInt"
+					],
+					[
+						"ra",
+						"randomUUID"
+					],
+					[
+						"ct",
+						"node:crypto"
+					],
+					[
+						"e",
+						"extraParams?"
+					],
+					[
+						"as",
+						"asProducer?"
+					],
+					[
+						"pro",
+						"propertyGroup"
+					],
+					[
+						"rec",
+						"reconsumeFrom"
+					],
+					[
+						"isSa",
+						"isSameOrAfter"
+					],
+					[
+						"pg",
+						"pgId"
+					],
+					[
+						"sendin",
+						"SendingMessageArrow"
+					],
+					[
+						"Reserva",
+						"ReservationsRaw"
+					],
+					[
+						"kaf",
+						"kafkaClientLocal"
+					],
+					[
+						"ran",
+						"randomUUID"
+					],
+					[
+						"RawRe",
+						"ReservationRawMessage"
+					],
+					[
+						"kafka",
+						"kafkaClientLocal"
+					],
+					[
+						"ka",
+						"kafkaClientLocal"
+					],
+					[
+						"get",
+						"getAllMetatada"
+					],
+					[
+						"ex",
+						"externalId"
+					],
+					[
+						"bui",
+						"buildCassandraClient"
+					],
+					[
+						"ge",
+						"getReservationExternalId"
+					],
+					[
+						"in",
+						"integration"
+					],
+					[
+						"IN",
+						"INT_LIB"
+					],
+					[
+						"c",
+						"cqlClient"
+					],
+					[
+						"AS",
+						"ASTRA_CONNECTION_BUNDLE"
+					],
+					[
+						"g",
+						"getSpecs"
+					],
+					[
+						"Integr",
+						"IntegrationSpecs"
+					],
+					[
+						"Par",
+						"Partners"
+					],
+					[
+						"au",
+						"autoCommit"
+					],
+					[
+						"toBE",
+						"toBeFalsy"
+					],
+					[
+						"time",
+						"timeStamp"
+					],
+					[
+						"tim",
+						"timeLog"
+					],
+					[
+						"send",
+						"sendSlackMessage"
+					],
+					[
+						"Reserv",
+						"ReservationsRawRetain"
+					],
+					[
+						"getRe",
+						"getReservationUpToNthVersion"
+					],
+					[
+						"push",
+						"pushRawReservationIfChanged"
+					],
+					[
+						"readf",
+						"readFileSync"
+					],
+					[
+						"ha",
+						"handleError"
+					],
+					[
+						"sd",
+						"stdout"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"Res",
+						"ReservationsRawRetain"
+					],
+					[
+						"Inter",
+						"IntegrationSpecs"
+					],
+					[
+						"ac",
+						"reservationsAck?"
+					],
+					[
+						"print",
+						"printIncomingMessage"
+					],
+					[
+						"pu",
+						"pull"
+					],
+					[
+						"sync",
+						"syncToDate"
+					],
+					[
+						"parse",
+						"parseInt"
+					],
+					[
+						"par",
+						"parseInt"
+					],
+					[
+						"dele",
+						"deletePriceRecord"
+					],
+					[
+						"m",
+						"minutes"
+					],
+					[
+						"SP",
+						"Span"
+					],
+					[
+						"ho",
+						"hours"
+					],
+					[
+						"SE",
+						"seconds"
+					]
+				]
+			},
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"i3",
+						"Set Syntax: i3-wm Config"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"scala",
+						"Scalafmt: Format current file"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
+						"syn ts",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"theme",
+						"UI: Customize Theme"
+					],
+					[
+						"inden",
+						"Indent JSON"
+					],
+					[
+						"ma",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"mark",
+						"Set Syntax: Markdown"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"jso",
+						"Set Syntax: JSON"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"reso",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"window",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setwin",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"eas",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"remv",
+						"Package Control: Remove Channel"
+					],
+					[
+						"open woe",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"work",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"easy",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"for",
+						"LSP: Format File"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"simpl",
+						"SimpleFuzzy: Active Project…"
+					],
+					[
+						"terminus se",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"mar",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"i",
+						"Indent JSON"
+					],
+					[
+						"nav",
+						"File Navigator: Open"
+					],
+					[
+						"m",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"keyb",
+						"Preferences: Key Bindings"
+					],
+					[
+						"inde",
+						"Indent JSON"
+					],
+					[
+						"js",
+						"Set Syntax: JSON"
+					],
+					[
+						"ty",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"synt typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"ind",
+						"Indent XML"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"isnt",
+						"Package Control: Install Package"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"forma",
+						"LSP: Format File"
+					],
+					[
+						"format",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"formatt",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"j",
+						"Set Syntax: JSON"
+					],
+					[
+						"term",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"formatter",
+						"Formatter: Beautify With ESLint"
+					],
+					[
+						"termi",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"ui",
+						"UI: Customize Theme"
+					],
+					[
+						"lsp-t",
+						"Preferences: LSP-typescript Settings"
+					],
+					[
+						"eslin",
+						"ESLint"
+					],
+					[
+						"linter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"subl",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublime",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"typescript",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"ui tm",
+						"UI: Select Theme"
+					],
+					[
+						"linte",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"lin",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"lint",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"linter setti",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimeLinter sett",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimelinter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"inste",
+						"Package Control: Install Package"
+					],
+					[
+						"a",
+						"ArcticTypescript: Reopen Project (after config changes)"
+					],
+					[
+						"the",
+						"UI: Select Theme"
+					],
+					[
+						"arct",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typesc",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"fmt",
+						"Fmt: Format Selection"
+					],
+					[
+						"codeforma",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"codeF",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"isntal",
+						"Package Control: Install Package"
+					],
+					[
+						"ui ",
+						"UI: Select Theme"
+					],
+					[
+						"ui t",
+						"UI: Select Theme"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"select col",
+						"UI: Select Color Scheme"
+					],
+					[
+						"terminus",
+						"Terminus: Toggle Panel"
+					],
+					[
+						"termin",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-prod.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/routes.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/deploy.js",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Alpinebits.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/upgrade_cron_jobs.sh",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/checkReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/cron_migration.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/kafka.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/alicestream.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/integrationSpecs.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Hotelizer.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/httpLogging/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/httpLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/handlers/receiveReservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/getPropertyGroupNetwork.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/jobLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/reservationErrors.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/CinqueStelle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationContext.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/automapping/utils.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/reconsume.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/utils/route-model.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/autodiscovery.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/fastify.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/nightPrices.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/splitReservationByNumUnits.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/Smartpricing.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Asa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beds24.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bedzzle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Begenius.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bemyguest.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Besync.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Casablanca.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ciaobooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cubilis.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Dirs21.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Easichannel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Elite.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ericsoft.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/HotelSpider.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ibelsa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Iperbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Kognitiv.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/KrossBooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Madeep.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Mews.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Myguestcare.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Octorate.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Passepartout.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Protel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Quovai.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Roomcloud.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sabee.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scidoo.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scrigno.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Simplebooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Siteminder.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Slope.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Smoobu.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/SMX.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sysdat.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Verticalbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Viato.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Vioma.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/WebHotelier.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Wubook.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Xenion.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zak.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zimmersoftware.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/models/Integration.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/types/lib.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Time.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Got.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/dates.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JSONValue.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/ReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/constants/MessageKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationSpecs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/ErmesHotels.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Messages.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/interfaces/http.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JobLogKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/GatewayMiddlewares.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/nightPriceCheker.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/schemas/reservation.schema.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/tsconfig.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/helm-chart/Chart.yaml"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 391.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"prote",
+					"brem",
+					"formatReservationSB",
+					"formatReservationsSB",
+					"sb",
+					"db",
+					"smartpa",
+					"ack",
+					"CronJob"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 127.0
+			},
+			"menu_visible": false,
+			"output.Fmt":
+			{
+				"height": 150.0
+			},
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 156.0
+			},
+			"output.Terminus":
+			{
+				"height": 563.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 156.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups-dummy":
+			{
+				"height": 0.0
+			},
+			"output.references":
+			{
+				"height": 439.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,24,1920,1080,1920,1080,1",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 350.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 592.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 378.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 593
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

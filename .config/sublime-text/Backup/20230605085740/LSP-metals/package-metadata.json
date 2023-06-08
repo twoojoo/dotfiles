@@ -1,0 +1,1 @@
+{"sublime_text": ">=4000", "url": "https://packagecontrol.io/packages/LSP-metals", "version": "0.17.3", "dependencies": [], "platforms": ["*"], "description": "Sublime Text package for Metals, a language server for Scala"}

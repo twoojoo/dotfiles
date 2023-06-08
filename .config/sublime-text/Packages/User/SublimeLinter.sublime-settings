@@ -1,0 +1,11 @@
+// SublimeLinter Settings - User
+{
+	"debug": true,
+	
+	"linters": {
+		"tslint": {
+			"disable":true,
+        	"selector": "source.ts, source.js - meta.attribute-with-value"
+    	}
+	}
+}

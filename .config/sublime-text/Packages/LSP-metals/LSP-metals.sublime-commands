@@ -1,0 +1,56 @@
+[
+    { "caption": "LSP-metals: Goto Super Method", "command": "lsp_metals_send_position", "args":{"command_name": "goto-super-method"}},
+    { "caption": "LSP-metals: Super Method Hierarchy", "command": "lsp_metals_send_position", "args":{"command_name": "super-method-hierarchy"}},
+    { "caption": "LSP-metals: Build Restart", "command": "lsp_metals_execute", "args":{"command_name": "build-restart"}},
+    { "caption": "LSP-metals: BSP Switch", "command": "lsp_metals_execute", "args":{"command_name": "bsp-switch"}},
+    { "caption": "LSP-metals: Generate BSP config", "command": "lsp_metals_execute", "args":{"command_name": "generate-bsp-config"}},
+    { "caption": "LSP-metals: Ammonite Start", "command": "lsp_metals_execute", "args":{"command_name": "ammonite-start"}},
+    { "caption": "LSP-metals: Ammonite Stop", "command": "lsp_metals_execute", "args":{"command_name": "ammonite-stop"}},
+    { "caption": "LSP-metals: Build Import", "command": "lsp_metals_execute", "args":{"command_name": "build-import"}},
+    { "caption": "LSP-metals: Build Connect", "command": "lsp_metals_execute", "args":{"command_name": "build-connect"}},
+    { "caption": "LSP-metals: Compile Cascade", "command": "lsp_metals_execute", "args":{"command_name": "compile-cascade"}},
+    { "caption": "LSP-metals: Compile Cancel", "command": "lsp_metals_execute", "args":{"command_name": "compile-cancel"}},
+    { "caption": "LSP-metals: Compile Clean", "command": "lsp_metals_execute", "args":{"command_name": "compile-clean"}},
+    { "caption": "LSP-metals: Copy Worksheet", "command": "lsp_metals_copy_worksheet"},
+    { "caption": "LSP-metals: Sources Scan", "command": "lsp_metals_execute", "args":{"command_name": "sources-scan"}},
+    { "caption": "LSP-metals: Doctor Run", "command": "lsp_metals_execute", "args":{"command_name": "doctor-run"}},
+    { "caption": "LSP-metals: Reset Choice", "command": "lsp_metals_execute", "args":{"command_name": "reset-choice"}},
+    { "caption": "LSP-metals: Show Decoded TASTy", "command": "lsp_metals_file_decoder", "args":{"decoding_type": "tasty-decoded"}},
+    { "caption": "LSP-metals: Show decompiled with javap", "command": "lsp_metals_file_decoder", "args":{"decoding_type": "javap"}},
+    { "caption": "LSP-metals: Show decompiled with javap verbose", "command": "lsp_metals_file_decoder", "args":{"decoding_type": "javap-verbose"}},
+    { "caption": "LSP-metals: Show semanticdb", "command": "lsp_metals_file_decoder", "args":{"decoding_type": "semanticdb-compact"}},
+    { "caption": "LSP-metals: Show semanticdb detailed", "command": "lsp_metals_file_decoder", "args":{"decoding_type": "semanticdb-detailed"}},
+    { "caption": "LSP-metals: Show semanticdb proto", "command": "lsp_metals_file_decoder", "args":{"decoding_type": "semanticdb-proto"}},
+    { "caption": "LSP-metals: Find in dependency", "command": "lsp_metals_find_in_dependency", "args":{}},
+    { "caption": "LSP-metals: Analyze Stacktrace", "command": "lsp_metals_analyze_stacktrace"},
+    {
+        "caption": "LSP-metals: Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/LSP-metals/LSP-metals.sublime-settings",
+            "default": "{\n\t$0\n}\n"
+        }
+    },
+    {
+        "caption": "LSP-metals: New Scala File",
+        "command": "lsp_metals_execute",
+        "args":{
+            "command_name": "new-scala-file",
+            "command_args": ["${file_uri}"]
+        }
+    },
+    {
+        "caption": "LSP-metals: New Java File",
+        "command": "lsp_metals_execute",
+        "args":{
+            "command_name": "new-java-file",
+            "command_args": ["${file_uri}"]
+        }
+    },
+    {
+        "caption": "LSP-metals: Show Build Target Info",
+        "command": "lsp_metals_show_build_target_info",
+        "args": {"command_name": "list-build-targets"}
+    },
+    { "caption": "LSP-metals: Run Scalafix", "command": "lsp_metals_run_scalafix"}
+]

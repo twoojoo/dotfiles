@@ -1,0 +1,48 @@
+{
+  // The version of the Metals server artifact. Requires restarting sublime.
+  // latest-stable, latest-snapshot or a specific server version
+  "server_version": "latest-stable",
+
+  // Optional path to the Java home directory. Requires reloading sublime.
+  "java_home": "",
+
+  // Attach to views with base scope source.scala or source.java
+  "selector": "source.scala, source.java",
+
+  // Optional array of properties to pass along to the Metals server.
+  // Example: `-Dhttps.proxyHost=… -Dhttps.proxyPort=…` or `-Dmetals.statistics=all`
+  // check https://scalameta.org/metals/docs/integrations/new-editor/#metals-server-properties for all properties
+  "server_properties": [
+    "-Dmetals.client=sublime",
+    "-Xss4m",
+    "-Xms100m"
+  ],
+
+  // initialization options
+  "initializationOptions": {
+    "didFocusProvider": true,
+    "executeClientCommandProvider": true,
+    "statusBarProvider": "on",
+    "inputBoxProvider": true,
+    // When enabled, shows worksheet evaluations as Sublime.Phantom instead of code comments.
+    "decorationProvider": true,
+    // When enabled, inferred types and implicits are shown as as Sublime.Phantom.
+    "inlineDecorationProvider": true,
+    "commandInHtmlFormat": "sublime",
+    "doctorProvider": "json",
+    "isHttpEnabled": false,
+    "doctorVisibilityProvider": false
+  },
+
+  "settings": {
+    "metals": {
+      "superMethodLensesEnabled": true,
+      // When enabled, each method and variable that can have inferred types has them displayed.
+      "showInferredType": false,
+      // When enabled, each method that has implicit arguments has them displayed.
+      "showImplicitArguments": false,
+      // When enabled, each place where an implicit method or class is used has it displayed.
+      "showImplicitConversionsAndClasses": false
+    }
+  }
+}

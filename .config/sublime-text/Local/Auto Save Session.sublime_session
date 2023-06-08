@@ -1,0 +1,4936 @@
+{
+	"file_history":
+	[
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/cron_migration.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Simplebooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Messages.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/mocks/property_groups/base_property_group.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/mocks/raw_reservations/slope.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/parseReservationSmartpaying.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Passepartout.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Verticalbooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Slope.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/cfg/prod.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/reconsume.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/rawReservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/helm-chart/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/kafka.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/README.md",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Siteminder.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/mocks/smartpaying_reservations/slope.json",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-integration-service/prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-integration-service/front_prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-gpcs-cli/templates/deployment.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-gpcs-cli/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01/helm-charts/sp-gpcs-cli/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/partners/SlopeReservation.ts",
+		"/home/giovanni/Projects/dotfiles/.tmuxinator/Smartpricing - Integration Suite - prod.yml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/constants/MessageKind.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/.dockerignore",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/deploy.js",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service/cfg/prod.toml",
+		"/home/giovanni/.smartpricing.bashrc",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/cfg/stage.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/package.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Kognitiv.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/templates/cronjob.yaml",
+		"/home/giovanni/Projects/ansible/ansible-desktop/README.md",
+		"/home/giovanni/Projects/ansible/ansible-desktop/local.yml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/dates.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bedzzle.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Xenion.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/getPropertyGroupNetwork.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/specs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service/package.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service/src/integrations/partners/CinqueStelle.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/.dockerignore",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Roomcloud.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Quovai.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/CinqueStelle.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bemyguest.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Iperbooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/KrossBooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Mews.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Octorate.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-stage.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-prod.yaml",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/routes.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Alpinebits.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/upgrade_cron_jobs.sh",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/Dockerfile",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/checkReservationData.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/alicestream.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-gpcs-cron-jobs/index.js",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/reservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/handlers/receiveReservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/action.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/reservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/tsconfig.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/package.json",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.v2.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.v2.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.v2.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/integrationSpecs.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Hotelizer.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/httpLogging/index.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/httpLogs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/HttpClient.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/jobLogs.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/reservationErrors.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationContext.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/automapping/utils.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/utils/route-model.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/autodiscovery.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/cache.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/fastify.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/propertyGroup.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/reservations.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/nightPrices.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/splitReservationByNumUnits.test.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/Smartpricing.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Asa.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beds24.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Begenius.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Besync.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Casablanca.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cbooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ciaobooking.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cubilis.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Dirs21.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Easichannel.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Elite.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ericsoft.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/HotelSpider.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ibelsa.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Madeep.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Myguestcare.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Protel.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sabee.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scidoo.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scrigno.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Smoobu.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/SMX.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sysdat.ts",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Viato.ts"
+	],
+	"folder_history":
+	[
+		"/home/giovanni/Projects/dotfiles",
+		"/home/giovanni/Projects/ansible/ansible-desktop",
+		"/home/giovanni/SmartPricing/sources/sp-cluster-01",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite",
+		"/home/giovanni/SmartPricing/sources/sp-gpcs-interface",
+		"/home/giovanni/SmartPricing/sources/sp-integration-service",
+		"/home/giovanni/SmartPricing/sources/sp-gpcs-cron-jobs",
+		"/home/giovanni/Projects/node/test-kafka-reconsume",
+		"/home/giovanni/Projects/node/kafka-reconsume",
+		"/home/giovanni/SmartPricing/sources/sp-integration-rest",
+		"/home/giovanni/Projects/scala/akka-data-proc",
+		"/home/giovanni/Projects/scala/scala-test-project",
+		"/home/giovanni/Projects/scala/my-akka-http-project",
+		"/home/giovanni/Projects/node/gpt-routing",
+		"/home/giovanni/Projects/node/vosk_gpt",
+		"/home/giovanni/Projects/scala/play-scala-seed",
+		"/home/giovanni/Projects/scala/xhttp4s-test-1/test-akka-http",
+		"/home/giovanni/Projects/scala/xhttp4s-test-1",
+		"/home/giovanni/Projects/scala/htt4s-test",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite-scala",
+		"/home/giovanni/Scripts/rofi",
+		"/home/giovanni/Projects/spark/bitnami",
+		"/home/giovanni/Projects/scala/test-art",
+		"/home/giovanni/Projects/scala/reservations",
+		"/home/giovanni/Projects/scala",
+		"/home/giovanni/SmartPricing/xmlParser",
+		"/home/giovanni/SmartPricing/sources/integrations",
+		"/home/giovanni/Projects/node/clusters",
+		"/home/giovanni/SmartPricing/sources/test-alicestream-types",
+		"/home/giovanni/SmartPricing/sources/alicestream",
+		"/home/giovanni/Projects/node/vosk",
+		"/home/giovanni/Projects/node/nodejs-driver",
+		"/home/giovanni/Projects/node/node-spark-test",
+		"/home/giovanni/SmartPricing/sources/onboarding_smartpaying",
+		"/home/giovanni/Projects/node/scylla-test",
+		"/home/giovanni/Projects/node/key-value-queue",
+		"/home/giovanni/Projects/go/test-ebitengine",
+		"/home/giovanni/Projects/go/await",
+		"/home/giovanni/Projects/go/tutorial",
+		"/home/giovanni/SmartPricing/sources/sp-cron-task",
+		"/home/giovanni/Projects/node/cleanerfish",
+		"/home/giovanni/Projects/node/nicli",
+		"/home/giovanni/Projects/alogrithms-course",
+		"/home/giovanni/Projects/node/waffle",
+		"/home/giovanni/Projects/node/nsq",
+		"/home/giovanni/SmartPricing/sources/sp-proxy",
+		"/home/giovanni/.tmuxinator",
+		"/home/giovanni/Projects/tidy_imports",
+		"/home/giovanni/Projects/node/dbtui",
+		"/home/giovanni/Projects/kata-machine",
+		"/home/giovanni/Projects/node/monorepo-test",
+		"/home/giovanni/Projects/node/microservice-framework",
+		"/home/giovanni/Projects/node/actio-test",
+		"/home/giovanni/integrations",
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite.backup",
+		"/home/giovanni/SmartPricing/scylla-test",
+		"/home/giovanni/Projects/bash/1launcher",
+		"/home/giovanni/Projects/bash/rofi-path-manager",
+		"/home/giovanni/Projects/node/1launcher",
+		"/home/giovanni/.config/polybar/panels",
+		"/home/giovanni",
+		"/home/giovanni/SmartPricing/sources/sp-partners-gateway",
+		"/home/giovanni/Projects/node/nycli",
+		"/home/giovanni/Projects/node/sublime_launcher",
+		"/home/giovanni/.config/picom",
+		"/home/giovanni/Scripts/i3",
+		"/home/giovanni/Projects/rust/glutin",
+		"/home/giovanni/Projects/rust/piston_test",
+		"/home/giovanni/Scripts/i3-hud-menu",
+		"/home/giovanni/Projects/node/json_navigator",
+		"/home/giovanni/SmartPricing/sources/pgSchemaDumpCli"
+	],
+	"last_version": 4143,
+	"last_window_id": 602,
+	"log_indexing": false,
+	"next_update_check": 1686289231,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1036.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			0.0,
+			24.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"packa",
+						"packageVersion"
+					],
+					[
+						"buil",
+						"buildImageTag"
+					],
+					[
+						"Cr",
+						"CronJobKind"
+					],
+					[
+						"cong",
+						"config"
+					],
+					[
+						"Each",
+						"EachMessageHandler"
+					],
+					[
+						"On",
+						"OnReservations"
+					],
+					[
+						"on",
+						"onReservations"
+					],
+					[
+						"re",
+						"response"
+					],
+					[
+						"JSOV",
+						"JSONValue"
+					],
+					[
+						"dow",
+						"downloadReservations"
+					],
+					[
+						"Base",
+						"BasePipelineMessage"
+					],
+					[
+						"Reser",
+						"ReservationToDownload"
+					],
+					[
+						"Rese",
+						"ReservationParsed"
+					],
+					[
+						"Reservat",
+						"ReservationData"
+					],
+					[
+						"R",
+						"ReservationRaw"
+					],
+					[
+						"RESE",
+						"RESERVATION_MESSAGE_KIND"
+					],
+					[
+						"do",
+						"dotenv"
+					],
+					[
+						"co",
+						"config"
+					],
+					[
+						"kafkas",
+						"kafkaReconsume"
+					],
+					[
+						"da",
+						"dateFormat"
+					],
+					[
+						"Rout",
+						"RouteContext"
+					],
+					[
+						"FastifyRe",
+						"FastifyRequest"
+					],
+					[
+						"Proper",
+						"PropertyGroup"
+					],
+					[
+						"pr",
+						"prices-v2"
+					],
+					[
+						"mat",
+						"matchEndpoint"
+					],
+					[
+						"Fas",
+						"FastifyRegister"
+					],
+					[
+						"P",
+						"POST"
+					],
+					[
+						"Route",
+						"RouteOptions"
+					],
+					[
+						"Con",
+						"ConfigurationParameters"
+					],
+					[
+						"Fastify",
+						"FastifyInstance"
+					],
+					[
+						"Random",
+						"Random - scala.util"
+					],
+					[
+						"Prin",
+						"PrintAkktor com.dataproc"
+					],
+					[
+						"Beh",
+						"Behavior"
+					],
+					[
+						"ActorCo",
+						"TypedActorContext - akka.actor.typed"
+					],
+					[
+						"sp",
+						"spawn[U](behavior: Behavior[U], name: String, props: Props = ...): ActorRef[U]"
+					],
+					[
+						"Ini",
+						"InitializeMessage com.dataproc.CounterMain"
+					],
+					[
+						"Be",
+						"Behaviors akka.actor.typed.scaladsl"
+					],
+					[
+						"set",
+						"setup[T](factory: ActorContext[T] => Behavior[T]): Behavior[T]"
+					],
+					[
+						"RE",
+						"RESET: \"\\u001B[0m\""
+					],
+					[
+						"Bu",
+						"BufferedSource scala.io"
+					],
+					[
+						"Buffered",
+						"BufferedInputStream - java.io"
+					],
+					[
+						"to",
+						"toString(): String"
+					],
+					[
+						"BL",
+						"BLUE: \"\\u001B[34m\""
+					],
+					[
+						"Re",
+						"REVERSED: \"\\u001B[7m\""
+					],
+					[
+						"pri",
+						"println(): Unit"
+					],
+					[
+						"Obj",
+						"ObjectKey"
+					],
+					[
+						"F",
+						"FromIntervalWithGenerator"
+					],
+					[
+						"FromI",
+						"FromIntervalWithoutGenerator"
+					],
+					[
+						"Extr",
+						"ExtractReturnTypes"
+					],
+					[
+						"Tas",
+						"TaskAfterSource"
+					],
+					[
+						"from",
+						"fromObject"
+					],
+					[
+						"fi",
+						"filterArray"
+					],
+					[
+						"l",
+						"length"
+					],
+					[
+						"le",
+						"length"
+					],
+					[
+						"filt",
+						"filterArray"
+					],
+					[
+						"Stora",
+						"StorageKind"
+					],
+					[
+						"kS",
+						"kSource"
+					],
+					[
+						"pat",
+						"parseInt"
+					],
+					[
+						"Ex",
+						"ExtendTask"
+					],
+					[
+						"K",
+						"kSink"
+					],
+					[
+						"loc",
+						"localClient"
+					],
+					[
+						"Ka",
+						"KafkaSink"
+					],
+					[
+						"Stor",
+						"StorageKind"
+					],
+					[
+						"S",
+						"StorageKind"
+					],
+					[
+						"Sto",
+						"MakeStorage"
+					],
+					[
+						"Key",
+						"KeyType"
+					],
+					[
+						"Task",
+						"TaskOfObject"
+					],
+					[
+						"s",
+						"split"
+					],
+					[
+						"fl",
+						"flatMap"
+					],
+					[
+						"un",
+						"unlockMicrophone"
+					],
+					[
+						"lock",
+						"lockMicrophone"
+					],
+					[
+						"se",
+						"setAction"
+					],
+					[
+						"p",
+						"phrasesToSpeech"
+					],
+					[
+						"createC",
+						"createChatCompletion"
+					],
+					[
+						"Op",
+						"OpenAIApi"
+					],
+					[
+						"setAction",
+						"setAction"
+					],
+					[
+						"pa",
+						"parseInt"
+					],
+					[
+						"ra",
+						"randomUUID"
+					],
+					[
+						"ct",
+						"node:crypto"
+					],
+					[
+						"e",
+						"extraParams?"
+					],
+					[
+						"as",
+						"asProducer?"
+					],
+					[
+						"pro",
+						"propertyGroup"
+					],
+					[
+						"rec",
+						"reconsumeFrom"
+					],
+					[
+						"isSa",
+						"isSameOrAfter"
+					],
+					[
+						"pg",
+						"pgId"
+					],
+					[
+						"sendin",
+						"SendingMessageArrow"
+					],
+					[
+						"Reserva",
+						"ReservationsRaw"
+					],
+					[
+						"kaf",
+						"kafkaClientLocal"
+					],
+					[
+						"ran",
+						"randomUUID"
+					],
+					[
+						"RawRe",
+						"ReservationRawMessage"
+					],
+					[
+						"kafka",
+						"kafkaClientLocal"
+					],
+					[
+						"ka",
+						"kafkaClientLocal"
+					],
+					[
+						"get",
+						"getAllMetatada"
+					],
+					[
+						"ex",
+						"externalId"
+					],
+					[
+						"bui",
+						"buildCassandraClient"
+					],
+					[
+						"ge",
+						"getReservationExternalId"
+					],
+					[
+						"in",
+						"integration"
+					],
+					[
+						"IN",
+						"INT_LIB"
+					],
+					[
+						"c",
+						"cqlClient"
+					],
+					[
+						"AS",
+						"ASTRA_CONNECTION_BUNDLE"
+					],
+					[
+						"g",
+						"getSpecs"
+					],
+					[
+						"Integr",
+						"IntegrationSpecs"
+					],
+					[
+						"Par",
+						"Partners"
+					],
+					[
+						"au",
+						"autoCommit"
+					],
+					[
+						"toBE",
+						"toBeFalsy"
+					],
+					[
+						"time",
+						"timeStamp"
+					],
+					[
+						"tim",
+						"timeLog"
+					],
+					[
+						"send",
+						"sendSlackMessage"
+					],
+					[
+						"Reserv",
+						"ReservationsRawRetain"
+					],
+					[
+						"getRe",
+						"getReservationUpToNthVersion"
+					],
+					[
+						"push",
+						"pushRawReservationIfChanged"
+					],
+					[
+						"readf",
+						"readFileSync"
+					],
+					[
+						"ha",
+						"handleError"
+					],
+					[
+						"sd",
+						"stdout"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"Res",
+						"ReservationsRawRetain"
+					],
+					[
+						"Inter",
+						"IntegrationSpecs"
+					],
+					[
+						"ac",
+						"reservationsAck?"
+					],
+					[
+						"print",
+						"printIncomingMessage"
+					],
+					[
+						"pu",
+						"pull"
+					],
+					[
+						"sync",
+						"syncToDate"
+					],
+					[
+						"parse",
+						"parseInt"
+					],
+					[
+						"par",
+						"parseInt"
+					],
+					[
+						"dele",
+						"deletePriceRecord"
+					],
+					[
+						"m",
+						"minutes"
+					],
+					[
+						"SP",
+						"Span"
+					],
+					[
+						"ho",
+						"hours"
+					],
+					[
+						"SE",
+						"seconds"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ans",
+						"Set Syntax: Ansible"
+					],
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"i3",
+						"Set Syntax: i3-wm Config"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"scala",
+						"Scalafmt: Format current file"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
+						"syn ts",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"theme",
+						"UI: Customize Theme"
+					],
+					[
+						"inden",
+						"Indent JSON"
+					],
+					[
+						"ma",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"mark",
+						"Set Syntax: Markdown"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"jso",
+						"Set Syntax: JSON"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"reso",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"window",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setwin",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"eas",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"remv",
+						"Package Control: Remove Channel"
+					],
+					[
+						"open woe",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"work",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"easy",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"for",
+						"LSP: Format File"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"simpl",
+						"SimpleFuzzy: Active Project…"
+					],
+					[
+						"terminus se",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"mar",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"i",
+						"Indent JSON"
+					],
+					[
+						"nav",
+						"File Navigator: Open"
+					],
+					[
+						"m",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"keyb",
+						"Preferences: Key Bindings"
+					],
+					[
+						"inde",
+						"Indent JSON"
+					],
+					[
+						"js",
+						"Set Syntax: JSON"
+					],
+					[
+						"ty",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"synt typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"ind",
+						"Indent XML"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"isnt",
+						"Package Control: Install Package"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"forma",
+						"LSP: Format File"
+					],
+					[
+						"format",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"formatt",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"j",
+						"Set Syntax: JSON"
+					],
+					[
+						"term",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"formatter",
+						"Formatter: Beautify With ESLint"
+					],
+					[
+						"termi",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"ui",
+						"UI: Customize Theme"
+					],
+					[
+						"lsp-t",
+						"Preferences: LSP-typescript Settings"
+					],
+					[
+						"eslin",
+						"ESLint"
+					],
+					[
+						"linter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"subl",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublime",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"typescript",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"ui tm",
+						"UI: Select Theme"
+					],
+					[
+						"linte",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"lin",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"lint",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"linter setti",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimeLinter sett",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimelinter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"inste",
+						"Package Control: Install Package"
+					],
+					[
+						"a",
+						"ArcticTypescript: Reopen Project (after config changes)"
+					],
+					[
+						"the",
+						"UI: Select Theme"
+					],
+					[
+						"arct",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typesc",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"fmt",
+						"Fmt: Format Selection"
+					],
+					[
+						"codeforma",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"codeF",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"isntal",
+						"Package Control: Install Package"
+					],
+					[
+						"ui ",
+						"UI: Select Theme"
+					],
+					[
+						"ui t",
+						"UI: Select Theme"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"select col",
+						"UI: Select Color Scheme"
+					],
+					[
+						"terminus",
+						"Terminus: Toggle Panel"
+					],
+					[
+						"termin",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-prod.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/routes.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/deploy.js",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Alpinebits.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/upgrade_cron_jobs.sh",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/checkReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/cron_migration.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/kafka.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/alicestream.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/integrationSpecs.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Hotelizer.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/httpLogging/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/httpLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/handlers/receiveReservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/getPropertyGroupNetwork.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/jobLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/reservationErrors.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/CinqueStelle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationContext.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/automapping/utils.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/reconsume.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/utils/route-model.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/autodiscovery.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/fastify.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/nightPrices.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/splitReservationByNumUnits.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/Smartpricing.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Asa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beds24.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bedzzle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Begenius.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bemyguest.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Besync.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Casablanca.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ciaobooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cubilis.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Dirs21.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Easichannel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Elite.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ericsoft.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/HotelSpider.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ibelsa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Iperbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Kognitiv.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/KrossBooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Madeep.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Mews.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Myguestcare.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Octorate.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Passepartout.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Protel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Quovai.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Roomcloud.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sabee.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scidoo.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scrigno.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Simplebooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Siteminder.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Slope.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Smoobu.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/SMX.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sysdat.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Verticalbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Viato.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Vioma.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/WebHotelier.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Wubook.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Xenion.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zak.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zimmersoftware.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/models/Integration.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/types/lib.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Time.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Got.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/dates.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JSONValue.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/ReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/constants/MessageKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationSpecs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/ErmesHotels.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Messages.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/interfaces/http.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JobLogKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/GatewayMiddlewares.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/nightPriceCheker.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/schemas/reservation.schema.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/tsconfig.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/helm-chart/Chart.yaml"
+			],
+			"find":
+			{
+				"height": 32.0
+			},
+			"find_in_files":
+			{
+				"height": 391.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"prote",
+					"brem",
+					"formatReservationSB",
+					"formatReservationsSB",
+					"sb",
+					"db",
+					"smartpa",
+					"ack",
+					"CronJob"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 127.0
+			},
+			"menu_visible": false,
+			"output.Fmt":
+			{
+				"height": 150.0
+			},
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 156.0
+			},
+			"output.Terminus":
+			{
+				"height": 563.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 156.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups-dummy":
+			{
+				"height": 0.0
+			},
+			"output.references":
+			{
+				"height": 439.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 350.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 592.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 378.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1920.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"packa",
+						"packageVersion"
+					],
+					[
+						"buil",
+						"buildImageTag"
+					],
+					[
+						"Cr",
+						"CronJobKind"
+					],
+					[
+						"cong",
+						"config"
+					],
+					[
+						"Each",
+						"EachMessageHandler"
+					],
+					[
+						"On",
+						"OnReservations"
+					],
+					[
+						"on",
+						"onReservations"
+					],
+					[
+						"re",
+						"response"
+					],
+					[
+						"JSOV",
+						"JSONValue"
+					],
+					[
+						"dow",
+						"downloadReservations"
+					],
+					[
+						"Base",
+						"BasePipelineMessage"
+					],
+					[
+						"Reser",
+						"ReservationToDownload"
+					],
+					[
+						"Rese",
+						"ReservationParsed"
+					],
+					[
+						"Reservat",
+						"ReservationData"
+					],
+					[
+						"R",
+						"ReservationRaw"
+					],
+					[
+						"RESE",
+						"RESERVATION_MESSAGE_KIND"
+					],
+					[
+						"do",
+						"dotenv"
+					],
+					[
+						"co",
+						"config"
+					],
+					[
+						"kafkas",
+						"kafkaReconsume"
+					],
+					[
+						"da",
+						"dateFormat"
+					],
+					[
+						"Rout",
+						"RouteContext"
+					],
+					[
+						"FastifyRe",
+						"FastifyRequest"
+					],
+					[
+						"Proper",
+						"PropertyGroup"
+					],
+					[
+						"pr",
+						"prices-v2"
+					],
+					[
+						"mat",
+						"matchEndpoint"
+					],
+					[
+						"Fas",
+						"FastifyRegister"
+					],
+					[
+						"P",
+						"POST"
+					],
+					[
+						"Route",
+						"RouteOptions"
+					],
+					[
+						"Con",
+						"ConfigurationParameters"
+					],
+					[
+						"Fastify",
+						"FastifyInstance"
+					],
+					[
+						"Random",
+						"Random - scala.util"
+					],
+					[
+						"Prin",
+						"PrintAkktor com.dataproc"
+					],
+					[
+						"Beh",
+						"Behavior"
+					],
+					[
+						"ActorCo",
+						"TypedActorContext - akka.actor.typed"
+					],
+					[
+						"sp",
+						"spawn[U](behavior: Behavior[U], name: String, props: Props = ...): ActorRef[U]"
+					],
+					[
+						"Ini",
+						"InitializeMessage com.dataproc.CounterMain"
+					],
+					[
+						"Be",
+						"Behaviors akka.actor.typed.scaladsl"
+					],
+					[
+						"set",
+						"setup[T](factory: ActorContext[T] => Behavior[T]): Behavior[T]"
+					],
+					[
+						"RE",
+						"RESET: \"\\u001B[0m\""
+					],
+					[
+						"Bu",
+						"BufferedSource scala.io"
+					],
+					[
+						"Buffered",
+						"BufferedInputStream - java.io"
+					],
+					[
+						"to",
+						"toString(): String"
+					],
+					[
+						"BL",
+						"BLUE: \"\\u001B[34m\""
+					],
+					[
+						"Re",
+						"REVERSED: \"\\u001B[7m\""
+					],
+					[
+						"pri",
+						"println(): Unit"
+					],
+					[
+						"Obj",
+						"ObjectKey"
+					],
+					[
+						"F",
+						"FromIntervalWithGenerator"
+					],
+					[
+						"FromI",
+						"FromIntervalWithoutGenerator"
+					],
+					[
+						"Extr",
+						"ExtractReturnTypes"
+					],
+					[
+						"Tas",
+						"TaskAfterSource"
+					],
+					[
+						"from",
+						"fromObject"
+					],
+					[
+						"fi",
+						"filterArray"
+					],
+					[
+						"l",
+						"length"
+					],
+					[
+						"le",
+						"length"
+					],
+					[
+						"filt",
+						"filterArray"
+					],
+					[
+						"Stora",
+						"StorageKind"
+					],
+					[
+						"kS",
+						"kSource"
+					],
+					[
+						"pat",
+						"parseInt"
+					],
+					[
+						"Ex",
+						"ExtendTask"
+					],
+					[
+						"K",
+						"kSink"
+					],
+					[
+						"loc",
+						"localClient"
+					],
+					[
+						"Ka",
+						"KafkaSink"
+					],
+					[
+						"Stor",
+						"StorageKind"
+					],
+					[
+						"S",
+						"StorageKind"
+					],
+					[
+						"Sto",
+						"MakeStorage"
+					],
+					[
+						"Key",
+						"KeyType"
+					],
+					[
+						"Task",
+						"TaskOfObject"
+					],
+					[
+						"s",
+						"split"
+					],
+					[
+						"fl",
+						"flatMap"
+					],
+					[
+						"un",
+						"unlockMicrophone"
+					],
+					[
+						"lock",
+						"lockMicrophone"
+					],
+					[
+						"se",
+						"setAction"
+					],
+					[
+						"p",
+						"phrasesToSpeech"
+					],
+					[
+						"createC",
+						"createChatCompletion"
+					],
+					[
+						"Op",
+						"OpenAIApi"
+					],
+					[
+						"setAction",
+						"setAction"
+					],
+					[
+						"pa",
+						"parseInt"
+					],
+					[
+						"ra",
+						"randomUUID"
+					],
+					[
+						"ct",
+						"node:crypto"
+					],
+					[
+						"e",
+						"extraParams?"
+					],
+					[
+						"as",
+						"asProducer?"
+					],
+					[
+						"pro",
+						"propertyGroup"
+					],
+					[
+						"rec",
+						"reconsumeFrom"
+					],
+					[
+						"isSa",
+						"isSameOrAfter"
+					],
+					[
+						"pg",
+						"pgId"
+					],
+					[
+						"sendin",
+						"SendingMessageArrow"
+					],
+					[
+						"Reserva",
+						"ReservationsRaw"
+					],
+					[
+						"kaf",
+						"kafkaClientLocal"
+					],
+					[
+						"ran",
+						"randomUUID"
+					],
+					[
+						"RawRe",
+						"ReservationRawMessage"
+					],
+					[
+						"kafka",
+						"kafkaClientLocal"
+					],
+					[
+						"ka",
+						"kafkaClientLocal"
+					],
+					[
+						"get",
+						"getAllMetatada"
+					],
+					[
+						"ex",
+						"externalId"
+					],
+					[
+						"bui",
+						"buildCassandraClient"
+					],
+					[
+						"ge",
+						"getReservationExternalId"
+					],
+					[
+						"in",
+						"integration"
+					],
+					[
+						"IN",
+						"INT_LIB"
+					],
+					[
+						"c",
+						"cqlClient"
+					],
+					[
+						"AS",
+						"ASTRA_CONNECTION_BUNDLE"
+					],
+					[
+						"g",
+						"getSpecs"
+					],
+					[
+						"Integr",
+						"IntegrationSpecs"
+					],
+					[
+						"Par",
+						"Partners"
+					],
+					[
+						"au",
+						"autoCommit"
+					],
+					[
+						"toBE",
+						"toBeFalsy"
+					],
+					[
+						"time",
+						"timeStamp"
+					],
+					[
+						"tim",
+						"timeLog"
+					],
+					[
+						"send",
+						"sendSlackMessage"
+					],
+					[
+						"Reserv",
+						"ReservationsRawRetain"
+					],
+					[
+						"getRe",
+						"getReservationUpToNthVersion"
+					],
+					[
+						"push",
+						"pushRawReservationIfChanged"
+					],
+					[
+						"readf",
+						"readFileSync"
+					],
+					[
+						"ha",
+						"handleError"
+					],
+					[
+						"sd",
+						"stdout"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"Res",
+						"ReservationsRawRetain"
+					],
+					[
+						"Inter",
+						"IntegrationSpecs"
+					],
+					[
+						"ac",
+						"reservationsAck?"
+					],
+					[
+						"print",
+						"printIncomingMessage"
+					],
+					[
+						"pu",
+						"pull"
+					],
+					[
+						"sync",
+						"syncToDate"
+					],
+					[
+						"parse",
+						"parseInt"
+					],
+					[
+						"par",
+						"parseInt"
+					],
+					[
+						"dele",
+						"deletePriceRecord"
+					],
+					[
+						"m",
+						"minutes"
+					],
+					[
+						"SP",
+						"Span"
+					],
+					[
+						"ho",
+						"hours"
+					],
+					[
+						"SE",
+						"seconds"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/giovanni/Projects/ansible/ansible-desktop/local.yml",
+					"settings":
+					{
+						"buffer_size": 1435,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "pacman"
+							},
+							"BwAAAG0AAAAAAAAAbgAAAAAAAAAAAAAAbgAAAAAAAABuAAAAAAAAAAcAAABwYWNrYWdlbgAAAAAAAABvAAAAAAAAAAAAAABvAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAcQAAAAAAAAAAAAAAcQAAAAAAAAByAAAAAAAAAAAAAAByAAAAAAAAAHMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbQAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"BgAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABUAAAAAAAAAAAAAABPAAAAAAAAAE8AAAAAAAAAAgAAAAkJ",
+							"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"",
+							null,
+							"AQAAAFIAAAAAAAAA9gAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAPYAAAAAAAAA9wAAAAAAAAAAAAAA9wAAAAAAAAD/AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA9gAAAAAAAAD2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							2,
+							"left_delete",
+							null,
+							"AwAAAE8AAAAAAAAATwAAAAAAAABRAAAACgkJIyBBUkNIIEZVTEwgVVBEQVRFICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tpgAAAAAAAACmAAAAAAAAAAgAAAAgICAgICAgIE4AAAAAAAAATgAAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAAoAAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							57,
+							1,
+							"insert",
+							{
+								"characters": "\n-"
+							},
+							"AwAAAEcBAAAAAAAASAEAAAAAAAAAAAAASAEAAAAAAABNAQAAAAAAAAAAAABNAQAAAAAAAE4BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARwEAAAAAAABHAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							58,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAE4BAAAAAAAATwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATgEAAAAAAABOAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							60,
+							1,
+							"",
+							null,
+							"AQAAAE8BAAAAAAAAUwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATwEAAAAAAABPAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							65,
+							5,
+							"swap_line_up",
+							null,
+							"CgAAACsBAAAAAAAAKwEAAAAAAAARAAAACQkJCQktIGNiYXR0aWNvbgoaAQAAAAAAACsBAAAAAAAAAAAAABoBAAAAAAAAGgEAAAAAAAARAAAACQkJCQktIGNiYXR0aWNvbgoNAQAAAAAAAB4BAAAAAAAAAAAAAA0BAAAAAAAADQEAAAAAAAARAAAACQkJCQktIGNiYXR0aWNvbgoBAQAAAAAAABIBAAAAAAAAAAAAAAEBAAAAAAAAAQEAAAAAAAARAAAACQkJCQktIGNiYXR0aWNvbgryAAAAAAAAAAMBAAAAAAAAAAAAAPIAAAAAAAAA8gAAAAAAAAARAAAACQkJCQktIGNiYXR0aWNvbgrhAAAAAAAAAPIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANgEAAAAAAAA2AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							68,
+							23,
+							"swap_line_down",
+							null,
+							"LgAAABIBAAAAAAAAIwEAAAAAAAAAAAAA8gAAAAAAAADyAAAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCh4BAAAAAAAALwEAAAAAAAAAAAAAAQEAAAAAAAABAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCisBAAAAAAAAPAEAAAAAAAAAAAAADQEAAAAAAAANAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCjwBAAAAAAAATQEAAAAAAAAAAAAAGgEAAAAAAAAaAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCkgBAAAAAAAAWQEAAAAAAAAAAAAAKwEAAAAAAAArAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzClQBAAAAAAAAZQEAAAAAAAAAAAAANwEAAAAAAAA3AQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCmABAAAAAAAAcQEAAAAAAAAAAAAAQwEAAAAAAABDAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCmwBAAAAAAAAfQEAAAAAAAAAAAAATwEAAAAAAABPAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCncBAAAAAAAAiAEAAAAAAAAAAAAAWwEAAAAAAABbAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCoIBAAAAAAAAkwEAAAAAAAAAAAAAZgEAAAAAAABmAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCo4BAAAAAAAAnwEAAAAAAAAAAAAAcQEAAAAAAABxAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCqABAAAAAAAAsQEAAAAAAAAAAAAAfQEAAAAAAAB9AQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCq4BAAAAAAAAvwEAAAAAAAAAAAAAjwEAAAAAAACPAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCr0BAAAAAAAAzgEAAAAAAAAAAAAAnQEAAAAAAACdAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCs0BAAAAAAAA3gEAAAAAAAAAAAAArAEAAAAAAACsAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCuUBAAAAAAAA9gEAAAAAAAAAAAAAvAEAAAAAAAC8AQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCvYBAAAAAAAABwIAAAAAAAAAAAAA1AEAAAAAAADUAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCgUCAAAAAAAAFgIAAAAAAAAAAAAA5QEAAAAAAADlAQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzChICAAAAAAAAIwIAAAAAAAAAAAAA9AEAAAAAAAD0AQAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCiYCAAAAAAAANwIAAAAAAAAAAAAAAQIAAAAAAAABAgAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCjwCAAAAAAAATQIAAAAAAAAAAAAAFQIAAAAAAAAVAgAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCkgCAAAAAAAAWQIAAAAAAAAAAAAAKwIAAAAAAAArAgAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCkkCAAAAAAAAWgIAAAAAAAAAAAAANwIAAAAAAAA3AgAAAAAAABEAAAAJCQkJCS0geGJpbmRrZXlzCg",
+							"AQAAAAAAAAABAAAA/QAAAAAAAAD9AAAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							69,
+							1,
+							"swap_line_up",
+							null,
+							"AgAAADgCAAAAAAAAOAIAAAAAAAARAAAACQkJCQktIHhiaW5ka2V5cwo3AgAAAAAAAEgCAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQwIAAAAAAABDAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							71,
+							24,
+							"swap_line_up",
+							null,
+							"MAAAACsCAAAAAAAAKwIAAAAAAAAMAAAACQkJCQktIGNvZGUKFQIAAAAAAAAhAgAAAAAAAAAAAAAVAgAAAAAAABUCAAAAAAAADAAAAAkJCQkJLSBjb2RlCgECAAAAAAAADQIAAAAAAAAAAAAAAQIAAAAAAAABAgAAAAAAAAwAAAAJCQkJCS0gY29kZQr0AQAAAAAAAAACAAAAAAAAAAAAAPQBAAAAAAAA9AEAAAAAAAAMAAAACQkJCQktIGNvZGUK5QEAAAAAAADxAQAAAAAAAAAAAADlAQAAAAAAAOUBAAAAAAAADAAAAAkJCQkJLSBjb2RlCtQBAAAAAAAA4AEAAAAAAAAAAAAA1AEAAAAAAADUAQAAAAAAAAwAAAAJCQkJCS0gY29kZQq8AQAAAAAAAMgBAAAAAAAAAAAAALwBAAAAAAAAvAEAAAAAAAAMAAAACQkJCQktIGNvZGUKrAEAAAAAAAC4AQAAAAAAAAAAAACsAQAAAAAAAKwBAAAAAAAADAAAAAkJCQkJLSBjb2RlCp0BAAAAAAAAqQEAAAAAAAAAAAAAnQEAAAAAAACdAQAAAAAAAAwAAAAJCQkJCS0gY29kZQqPAQAAAAAAAJsBAAAAAAAAAAAAAI8BAAAAAAAAjwEAAAAAAAAMAAAACQkJCQktIGNvZGUKfQEAAAAAAACJAQAAAAAAAAAAAAB9AQAAAAAAAH0BAAAAAAAADAAAAAkJCQkJLSBjb2RlCnEBAAAAAAAAfQEAAAAAAAAAAAAAcQEAAAAAAABxAQAAAAAAAAwAAAAJCQkJCS0gY29kZQpmAQAAAAAAAHIBAAAAAAAAAAAAAGYBAAAAAAAAZgEAAAAAAAAMAAAACQkJCQktIGNvZGUKWwEAAAAAAABnAQAAAAAAAAAAAABbAQAAAAAAAFsBAAAAAAAADAAAAAkJCQkJLSBjb2RlCk8BAAAAAAAAWwEAAAAAAAAAAAAATwEAAAAAAABPAQAAAAAAAAwAAAAJCQkJCS0gY29kZQpDAQAAAAAAAE8BAAAAAAAAAAAAAEMBAAAAAAAAQwEAAAAAAAAMAAAACQkJCQktIGNvZGUKNwEAAAAAAABDAQAAAAAAAAAAAAA3AQAAAAAAADcBAAAAAAAADAAAAAkJCQkJLSBjb2RlCisBAAAAAAAANwEAAAAAAAAAAAAAKwEAAAAAAAArAQAAAAAAAAwAAAAJCQkJCS0gY29kZQoaAQAAAAAAACYBAAAAAAAAAAAAABoBAAAAAAAAGgEAAAAAAAAMAAAACQkJCQktIGNvZGUKDQEAAAAAAAAZAQAAAAAAAAAAAAANAQAAAAAAAA0BAAAAAAAADAAAAAkJCQkJLSBjb2RlCgEBAAAAAAAADQEAAAAAAAAAAAAAAQEAAAAAAAABAQAAAAAAAAwAAAAJCQkJCS0gY29kZQryAAAAAAAAAP4AAAAAAAAAAAAAAPIAAAAAAAAA8gAAAAAAAAAMAAAACQkJCQktIGNvZGUK4QAAAAAAAADtAAAAAAAAAAAAAADhAAAAAAAAAOEAAAAAAAAADAAAAAkJCQkJLSBjb2RlCtcAAAAAAAAA4wAAAAAAAAAAAAAA1wAAAAAAAADXAAAAAAAAAAwAAAAJCQkJCS0gY29kZQrMAAAAAAAAANgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANgIAAAAAAAA2AgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							72,
+							2,
+							"swap_line_down",
+							null,
+							"BAAAAOMAAAAAAAAA7wAAAAAAAAAAAAAAzAAAAAAAAADMAAAAAAAAAAwAAAAJCQkJCS0gY29kZQrtAAAAAAAAAPkAAAAAAAAAAAAAANcAAAAAAAAA1wAAAAAAAAAMAAAACQkJCQktIGNvZGUK",
+							"AQAAAAAAAAABAAAA1wAAAAAAAADXAAAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							74,
+							2,
+							"swap_line_down",
+							null,
+							"BAAAAO0AAAAAAAAA9wAAAAAAAAAAAAAA1wAAAAAAAADXAAAAAAAAAAoAAAAJCQkJCS0gaTMK/gAAAAAAAAAIAQAAAAAAAAAAAADjAAAAAAAAAOMAAAAAAAAACgAAAAkJCQkJLSBpMwo",
+							"AQAAAAAAAAABAAAA4AAAAAAAAADgAAAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							76,
+							1,
+							"swap_line_up",
+							null,
+							"AgAAAOMAAAAAAAAA4wAAAAAAAAARAAAACQkJCQktIGNiYXR0aWNvbgrXAAAAAAAAAOgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA7gAAAAAAAADuAAAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							79,
+							13,
+							"swap_line_up",
+							null,
+							"GgAAAJsBAAAAAAAAmwEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgqJAQAAAAAAAJcBAAAAAAAAAAAAAIkBAAAAAAAAiQEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgp9AQAAAAAAAIsBAAAAAAAAAAAAAH0BAAAAAAAAfQEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgpyAQAAAAAAAIABAAAAAAAAAAAAAHIBAAAAAAAAcgEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgpnAQAAAAAAAHUBAAAAAAAAAAAAAGcBAAAAAAAAZwEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgpbAQAAAAAAAGkBAAAAAAAAAAAAAFsBAAAAAAAAWwEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgpPAQAAAAAAAF0BAAAAAAAAAAAAAE8BAAAAAAAATwEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgpDAQAAAAAAAFEBAAAAAAAAAAAAAEMBAAAAAAAAQwEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgo3AQAAAAAAAEUBAAAAAAAAAAAAADcBAAAAAAAANwEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgomAQAAAAAAADQBAAAAAAAAAAAAACYBAAAAAAAAJgEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgoZAQAAAAAAACcBAAAAAAAAAAAAABkBAAAAAAAAGQEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgoNAQAAAAAAABsBAAAAAAAAAAAAAA0BAAAAAAAADQEAAAAAAAAOAAAACQkJCQktIGRvY2tlcgr+AAAAAAAAAAwBAAAAAAAAAAAAAP4AAAAAAAAA/gAAAAAAAAAOAAAACQkJCQktIGRvY2tlcgr0AAAAAAAAAAIBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApgEAAAAAAACmAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							81,
+							19,
+							"swap_line_up",
+							null,
+							"JgAAAAACAAAAAAAAAAIAAAAAAAANAAAACQkJCQktIGRvY3RsCvEBAAAAAAAA/gEAAAAAAAAAAAAA8QEAAAAAAADxAQAAAAAAAA0AAAAJCQkJCS0gZG9jdGwK4AEAAAAAAADtAQAAAAAAAAAAAADgAQAAAAAAAOABAAAAAAAADQAAAAkJCQkJLSBkb2N0bArIAQAAAAAAANUBAAAAAAAAAAAAAMgBAAAAAAAAyAEAAAAAAAANAAAACQkJCQktIGRvY3RsCrgBAAAAAAAAxQEAAAAAAAAAAAAAuAEAAAAAAAC4AQAAAAAAAA0AAAAJCQkJCS0gZG9jdGwKqQEAAAAAAAC2AQAAAAAAAAAAAACpAQAAAAAAAKkBAAAAAAAADQAAAAkJCQkJLSBkb2N0bAqXAQAAAAAAAKQBAAAAAAAAAAAAAJcBAAAAAAAAlwEAAAAAAAANAAAACQkJCQktIGRvY3RsCosBAAAAAAAAmAEAAAAAAAAAAAAAiwEAAAAAAACLAQAAAAAAAA0AAAAJCQkJCS0gZG9jdGwKgAEAAAAAAACNAQAAAAAAAAAAAACAAQAAAAAAAIABAAAAAAAADQAAAAkJCQkJLSBkb2N0bAp1AQAAAAAAAIIBAAAAAAAAAAAAAHUBAAAAAAAAdQEAAAAAAAANAAAACQkJCQktIGRvY3RsCmkBAAAAAAAAdgEAAAAAAAAAAAAAaQEAAAAAAABpAQAAAAAAAA0AAAAJCQkJCS0gZG9jdGwKXQEAAAAAAABqAQAAAAAAAAAAAABdAQAAAAAAAF0BAAAAAAAADQAAAAkJCQkJLSBkb2N0bApRAQAAAAAAAF4BAAAAAAAAAAAAAFEBAAAAAAAAUQEAAAAAAAANAAAACQkJCQktIGRvY3RsCkUBAAAAAAAAUgEAAAAAAAAAAAAARQEAAAAAAABFAQAAAAAAAA0AAAAJCQkJCS0gZG9jdGwKNAEAAAAAAABBAQAAAAAAAAAAAAA0AQAAAAAAADQBAAAAAAAADQAAAAkJCQkJLSBkb2N0bAonAQAAAAAAADQBAAAAAAAAAAAAACcBAAAAAAAAJwEAAAAAAAANAAAACQkJCQktIGRvY3RsChsBAAAAAAAAKAEAAAAAAAAAAAAAGwEAAAAAAAAbAQAAAAAAAA0AAAAJCQkJCS0gZG9jdGwKDAEAAAAAAAAZAQAAAAAAAAAAAAAMAQAAAAAAAAwBAAAAAAAADQAAAAkJCQkJLSBkb2N0bAoCAQAAAAAAAA8BAAAAAAAAAAAAAAIBAAAAAAAAAgEAAAAAAAANAAAACQkJCQktIGRvY3RsCvQAAAAAAAAAAQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACwIAAAAAAAALAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							82,
+							1,
+							"swap_line_down",
+							null,
+							"AgAAAA8BAAAAAAAAHAEAAAAAAAAAAAAA9AAAAAAAAAD0AAAAAAAAAA0AAAAJCQkJCS0gZG9jdGwK",
+							"AQAAAAAAAAABAAAA/wAAAAAAAAD/AAAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							95,
+							7,
+							"swap_line_up",
+							null,
+							"DgAAAGoBAAAAAAAAagEAAAAAAAAMAAAACQkJCQktIGN1cmwKXgEAAAAAAABqAQAAAAAAAAAAAABeAQAAAAAAAF4BAAAAAAAADAAAAAkJCQkJLSBjdXJsClIBAAAAAAAAXgEAAAAAAAAAAAAAUgEAAAAAAABSAQAAAAAAAAwAAAAJCQkJCS0gY3VybApBAQAAAAAAAE0BAAAAAAAAAAAAAEEBAAAAAAAAQQEAAAAAAAAMAAAACQkJCQktIGN1cmwKNAEAAAAAAABAAQAAAAAAAAAAAAA0AQAAAAAAADQBAAAAAAAADAAAAAkJCQkJLSBjdXJsCigBAAAAAAAANAEAAAAAAAAAAAAAKAEAAAAAAAAoAQAAAAAAAAwAAAAJCQkJCS0gY3VybAoZAQAAAAAAACUBAAAAAAAAAAAAABkBAAAAAAAAGQEAAAAAAAAMAAAACQkJCQktIGN1cmwKDwEAAAAAAAAbAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdQEAAAAAAAB1AQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							100,
+							7,
+							"swap_line_down",
+							null,
+							"DgAAAMUBAAAAAAAA1wEAAAAAAAAAAAAApAEAAAAAAACkAQAAAAAAABIAAAAJCQkJCS0gdG11eGluYXRvcgrVAQAAAAAAAOcBAAAAAAAAAAAAALMBAAAAAAAAswEAAAAAAAASAAAACQkJCQktIHRtdXhpbmF0b3IK7QEAAAAAAAD/AQAAAAAAAAAAAADDAQAAAAAAAMMBAAAAAAAAEgAAAAkJCQkJLSB0bXV4aW5hdG9yCv4BAAAAAAAAEAIAAAAAAAAAAAAA2wEAAAAAAADbAQAAAAAAABIAAAAJCQkJCS0gdG11eGluYXRvcgoNAgAAAAAAAB8CAAAAAAAAAAAAAOwBAAAAAAAA7AEAAAAAAAASAAAACQkJCQktIHRtdXhpbmF0b3IKIQIAAAAAAAAzAgAAAAAAAAAAAAD7AQAAAAAAAPsBAAAAAAAAEgAAAAkJCQkJLSB0bXV4aW5hdG9yCjcCAAAAAAAASQIAAAAAAAAAAAAADwIAAAAAAAAPAgAAAAAAABIAAAAJCQkJCS0gdG11eGluYXRvcgo",
+							"AQAAAAAAAAABAAAArwEAAAAAAACvAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							102,
+							19,
+							"swap_line_up",
+							null,
+							"JgAAANsBAAAAAAAA2wEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQrDAQAAAAAAANQBAAAAAAAAAAAAAMMBAAAAAAAAwwEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQqzAQAAAAAAAMQBAAAAAAAAAAAAALMBAAAAAAAAswEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQqkAQAAAAAAALUBAAAAAAAAAAAAAKQBAAAAAAAApAEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQqYAQAAAAAAAKkBAAAAAAAAAAAAAJgBAAAAAAAAmAEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQqNAQAAAAAAAJ4BAAAAAAAAAAAAAI0BAAAAAAAAjQEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQqCAQAAAAAAAJMBAAAAAAAAAAAAAIIBAAAAAAAAggEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQp2AQAAAAAAAIcBAAAAAAAAAAAAAHYBAAAAAAAAdgEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQpqAQAAAAAAAHsBAAAAAAAAAAAAAGoBAAAAAAAAagEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQpeAQAAAAAAAG8BAAAAAAAAAAAAAF4BAAAAAAAAXgEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQpNAQAAAAAAAF4BAAAAAAAAAAAAAE0BAAAAAAAATQEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQpAAQAAAAAAAFEBAAAAAAAAAAAAAEABAAAAAAAAQAEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQo0AQAAAAAAAEUBAAAAAAAAAAAAADQBAAAAAAAANAEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQolAQAAAAAAADYBAAAAAAAAAAAAACUBAAAAAAAAJQEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQobAQAAAAAAACwBAAAAAAAAAAAAABsBAAAAAAAAGwEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQoPAQAAAAAAACABAAAAAAAAAAAAAA8BAAAAAAAADwEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQoCAQAAAAAAABMBAAAAAAAAAAAAAAIBAAAAAAAAAgEAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQr0AAAAAAAAAAUBAAAAAAAAAAAAAPQAAAAAAAAA9AAAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQroAAAAAAAAAPkAAAAAAAAAAAAAAOgAAAAAAAAA6AAAAAAAAAARAAAACQkJCQktIGFsYWNyaXR0eQrXAAAAAAAAAOgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA5gEAAAAAAADmAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							104,
+							16,
+							"swap_line_up",
+							null,
+							"IAAAAMQBAAAAAAAAxAEAAAAAAAAQAAAACQkJCQktIGNocm9taXVtCrUBAAAAAAAAxQEAAAAAAAAAAAAAtQEAAAAAAAC1AQAAAAAAABAAAAAJCQkJCS0gY2hyb21pdW0KqQEAAAAAAAC5AQAAAAAAAAAAAACpAQAAAAAAAKkBAAAAAAAAEAAAAAkJCQkJLSBjaHJvbWl1bQqeAQAAAAAAAK4BAAAAAAAAAAAAAJ4BAAAAAAAAngEAAAAAAAAQAAAACQkJCQktIGNocm9taXVtCpMBAAAAAAAAowEAAAAAAAAAAAAAkwEAAAAAAACTAQAAAAAAABAAAAAJCQkJCS0gY2hyb21pdW0KhwEAAAAAAACXAQAAAAAAAAAAAACHAQAAAAAAAIcBAAAAAAAAEAAAAAkJCQkJLSBjaHJvbWl1bQp7AQAAAAAAAIsBAAAAAAAAAAAAAHsBAAAAAAAAewEAAAAAAAAQAAAACQkJCQktIGNocm9taXVtCm8BAAAAAAAAfwEAAAAAAAAAAAAAbwEAAAAAAABvAQAAAAAAABAAAAAJCQkJCS0gY2hyb21pdW0KXgEAAAAAAABuAQAAAAAAAAAAAABeAQAAAAAAAF4BAAAAAAAAEAAAAAkJCQkJLSBjaHJvbWl1bQpRAQAAAAAAAGEBAAAAAAAAAAAAAFEBAAAAAAAAUQEAAAAAAAAQAAAACQkJCQktIGNocm9taXVtCkUBAAAAAAAAVQEAAAAAAAAAAAAARQEAAAAAAABFAQAAAAAAABAAAAAJCQkJCS0gY2hyb21pdW0KNgEAAAAAAABGAQAAAAAAAAAAAAA2AQAAAAAAADYBAAAAAAAAEAAAAAkJCQkJLSBjaHJvbWl1bQosAQAAAAAAADwBAAAAAAAAAAAAACwBAAAAAAAALAEAAAAAAAAQAAAACQkJCQktIGNocm9taXVtCiABAAAAAAAAMAEAAAAAAAAAAAAAIAEAAAAAAAAgAQAAAAAAABAAAAAJCQkJCS0gY2hyb21pdW0KEwEAAAAAAAAjAQAAAAAAAAAAAAATAQAAAAAAABMBAAAAAAAAEAAAAAkJCQkJLSBjaHJvbWl1bQoFAQAAAAAAABUBAAAAAAAAAAAAAAUBAAAAAAAABQEAAAAAAAAQAAAACQkJCQktIGNocm9taXVtCvkAAAAAAAAACQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzwEAAAAAAADPAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							106,
+							18,
+							"swap_line_up",
+							null,
+							"JAAAANQBAAAAAAAA1AEAAAAAAAAYAAAACQkJCQktIGJlZWtlZXBlci1zdHVkaW8KxQEAAAAAAADdAQAAAAAAAAAAAADFAQAAAAAAAMUBAAAAAAAAGAAAAAkJCQkJLSBiZWVrZWVwZXItc3R1ZGlvCrkBAAAAAAAA0QEAAAAAAAAAAAAAuQEAAAAAAAC5AQAAAAAAABgAAAAJCQkJCS0gYmVla2VlcGVyLXN0dWRpbwquAQAAAAAAAMYBAAAAAAAAAAAAAK4BAAAAAAAArgEAAAAAAAAYAAAACQkJCQktIGJlZWtlZXBlci1zdHVkaW8KowEAAAAAAAC7AQAAAAAAAAAAAACjAQAAAAAAAKMBAAAAAAAAGAAAAAkJCQkJLSBiZWVrZWVwZXItc3R1ZGlvCpcBAAAAAAAArwEAAAAAAAAAAAAAlwEAAAAAAACXAQAAAAAAABgAAAAJCQkJCS0gYmVla2VlcGVyLXN0dWRpbwqLAQAAAAAAAKMBAAAAAAAAAAAAAIsBAAAAAAAAiwEAAAAAAAAYAAAACQkJCQktIGJlZWtlZXBlci1zdHVkaW8KfwEAAAAAAACXAQAAAAAAAAAAAAB/AQAAAAAAAH8BAAAAAAAAGAAAAAkJCQkJLSBiZWVrZWVwZXItc3R1ZGlvCm4BAAAAAAAAhgEAAAAAAAAAAAAAbgEAAAAAAABuAQAAAAAAABgAAAAJCQkJCS0gYmVla2VlcGVyLXN0dWRpbwphAQAAAAAAAHkBAAAAAAAAAAAAAGEBAAAAAAAAYQEAAAAAAAAYAAAACQkJCQktIGJlZWtlZXBlci1zdHVkaW8KVQEAAAAAAABtAQAAAAAAAAAAAABVAQAAAAAAAFUBAAAAAAAAGAAAAAkJCQkJLSBiZWVrZWVwZXItc3R1ZGlvCkYBAAAAAAAAXgEAAAAAAAAAAAAARgEAAAAAAABGAQAAAAAAABgAAAAJCQkJCS0gYmVla2VlcGVyLXN0dWRpbwo8AQAAAAAAAFQBAAAAAAAAAAAAADwBAAAAAAAAPAEAAAAAAAAYAAAACQkJCQktIGJlZWtlZXBlci1zdHVkaW8KMAEAAAAAAABIAQAAAAAAAAAAAAAwAQAAAAAAADABAAAAAAAAGAAAAAkJCQkJLSBiZWVrZWVwZXItc3R1ZGlvCiMBAAAAAAAAOwEAAAAAAAAAAAAAIwEAAAAAAAAjAQAAAAAAABgAAAAJCQkJCS0gYmVla2VlcGVyLXN0dWRpbwoVAQAAAAAAAC0BAAAAAAAAAAAAABUBAAAAAAAAFQEAAAAAAAAYAAAACQkJCQktIGJlZWtlZXBlci1zdHVkaW8KCQEAAAAAAAAhAQAAAAAAAAAAAAAJAQAAAAAAAAkBAAAAAAAAGAAAAAkJCQkJLSBiZWVrZWVwZXItc3R1ZGlvCvkAAAAAAAAAEQEAAAAAAAAAAAAA+QAAAAAAAAD5AAAAAAAAABgAAAAJCQkJCS0gYmVla2VlcGVyLXN0dWRpbwroAAAAAAAAAAABAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA3wEAAAAAAADfAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							109,
+							10,
+							"swap_line_up",
+							null,
+							"FAAAAPsBAAAAAAAA+wEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcArsAQAAAAAAAAACAAAAAAAAAAAAAOwBAAAAAAAA7AEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcArdAQAAAAAAAPEBAAAAAAAAAAAAAN0BAAAAAAAA3QEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcArRAQAAAAAAAOUBAAAAAAAAAAAAANEBAAAAAAAA0QEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcArGAQAAAAAAANoBAAAAAAAAAAAAAMYBAAAAAAAAxgEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcAq7AQAAAAAAAM8BAAAAAAAAAAAAALsBAAAAAAAAuwEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcAqvAQAAAAAAAMMBAAAAAAAAAAAAAK8BAAAAAAAArwEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcAqjAQAAAAAAALcBAAAAAAAAAAAAAKMBAAAAAAAAowEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcAqXAQAAAAAAAKsBAAAAAAAAAAAAAJcBAAAAAAAAlwEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcAqGAQAAAAAAAJoBAAAAAAAAAAAAAIYBAAAAAAAAhgEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcAp5AQAAAAAAAI0BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABgIAAAAAAAAGAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							110,
+							3,
+							"swap_line_up",
+							null,
+							"BgAAAHkBAAAAAAAAeQEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcAptAQAAAAAAAIEBAAAAAAAAAAAAAG0BAAAAAAAAbQEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcApeAQAAAAAAAHIBAAAAAAAAAAAAAF4BAAAAAAAAXgEAAAAAAAAUAAAACQkJCQktIGxlbnMtZGVza3RvcApUAQAAAAAAAGgBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhAEAAAAAAACEAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							112,
+							1,
+							"swap_line_up",
+							null,
+							"AgAAAGgBAAAAAAAAaAEAAAAAAAAKAAAACQkJCQktIGkzClQBAAAAAAAAXgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcQEAAAAAAABxAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							115,
+							8,
+							"swap_line_up",
+							null,
+							"EAAAAPEBAAAAAAAA8QEAAAAAAAAPAAAACQkJCQktIGt1YmVjdGwK5QEAAAAAAAD0AQAAAAAAAAAAAADlAQAAAAAAAOUBAAAAAAAADwAAAAkJCQkJLSBrdWJlY3RsCtoBAAAAAAAA6QEAAAAAAAAAAAAA2gEAAAAAAADaAQAAAAAAAA8AAAAJCQkJCS0ga3ViZWN0bArPAQAAAAAAAN4BAAAAAAAAAAAAAM8BAAAAAAAAzwEAAAAAAAAPAAAACQkJCQktIGt1YmVjdGwKwwEAAAAAAADSAQAAAAAAAAAAAADDAQAAAAAAAMMBAAAAAAAADwAAAAkJCQkJLSBrdWJlY3RsCrcBAAAAAAAAxgEAAAAAAAAAAAAAtwEAAAAAAAC3AQAAAAAAAA8AAAAJCQkJCS0ga3ViZWN0bAqrAQAAAAAAALoBAAAAAAAAAAAAAKsBAAAAAAAAqwEAAAAAAAAPAAAACQkJCQktIGt1YmVjdGwKmgEAAAAAAACpAQAAAAAAAAAAAACaAQAAAAAAAJoBAAAAAAAADwAAAAkJCQkJLSBrdWJlY3RsCo0BAAAAAAAAnAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA/AEAAAAAAAD8AQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							116,
+							3,
+							"swap_line_up",
+							null,
+							"BgAAAI0BAAAAAAAAjQEAAAAAAAAPAAAACQkJCQktIGt1YmVjdGwKgQEAAAAAAACQAQAAAAAAAAAAAACBAQAAAAAAAIEBAAAAAAAADwAAAAkJCQkJLSBrdWJlY3RsCnIBAAAAAAAAgQEAAAAAAAAAAAAAcgEAAAAAAAByAQAAAAAAAA8AAAAJCQkJCS0ga3ViZWN0bApeAQAAAAAAAG0BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAEAAAAAAACYAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							118,
+							12,
+							"swap_line_up",
+							null,
+							"GAAAAAACAAAAAAAAAAIAAAAAAAAPAAAACQkJCQktIHlha3Vha2UK9AEAAAAAAAADAgAAAAAAAAAAAAD0AQAAAAAAAPQBAAAAAAAADwAAAAkJCQkJLSB5YWt1YWtlCukBAAAAAAAA+AEAAAAAAAAAAAAA6QEAAAAAAADpAQAAAAAAAA8AAAAJCQkJCS0geWFrdWFrZQreAQAAAAAAAO0BAAAAAAAAAAAAAN4BAAAAAAAA3gEAAAAAAAAPAAAACQkJCQktIHlha3Vha2UK0gEAAAAAAADhAQAAAAAAAAAAAADSAQAAAAAAANIBAAAAAAAADwAAAAkJCQkJLSB5YWt1YWtlCsYBAAAAAAAA1QEAAAAAAAAAAAAAxgEAAAAAAADGAQAAAAAAAA8AAAAJCQkJCS0geWFrdWFrZQq6AQAAAAAAAMkBAAAAAAAAAAAAALoBAAAAAAAAugEAAAAAAAAPAAAACQkJCQktIHlha3Vha2UKqQEAAAAAAAC4AQAAAAAAAAAAAACpAQAAAAAAAKkBAAAAAAAADwAAAAkJCQkJLSB5YWt1YWtlCpwBAAAAAAAAqwEAAAAAAAAAAAAAnAEAAAAAAACcAQAAAAAAAA8AAAAJCQkJCS0geWFrdWFrZQqQAQAAAAAAAJ8BAAAAAAAAAAAAAJABAAAAAAAAkAEAAAAAAAAPAAAACQkJCQktIHlha3Vha2UKgQEAAAAAAACQAQAAAAAAAAAAAACBAQAAAAAAAIEBAAAAAAAADwAAAAkJCQkJLSB5YWt1YWtlCm0BAAAAAAAAfAEAAAAAAAAAAAAAbQEAAAAAAABtAQAAAAAAAA8AAAAJCQkJCS0geWFrdWFrZQpeAQAAAAAAAG0BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACwIAAAAAAAALAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							121,
+							1,
+							"swap_line_up",
+							null,
+							"AgAAAA8CAAAAAAAADwIAAAAAAAAWAAAACQkJCQktIHN1YmxpbWUtdGV4dC00CgMCAAAAAAAAGQIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGgIAAAAAAAAaAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							123,
+							11,
+							"swap_line_up",
+							null,
+							"FgAAAPgBAAAAAAAA+AEAAAAAAAALAAAACQkJCQktIHlheQrtAQAAAAAAAPgBAAAAAAAAAAAAAO0BAAAAAAAA7QEAAAAAAAALAAAACQkJCQktIHlheQrhAQAAAAAAAOwBAAAAAAAAAAAAAOEBAAAAAAAA4QEAAAAAAAALAAAACQkJCQktIHlheQrVAQAAAAAAAOABAAAAAAAAAAAAANUBAAAAAAAA1QEAAAAAAAALAAAACQkJCQktIHlheQrJAQAAAAAAANQBAAAAAAAAAAAAAMkBAAAAAAAAyQEAAAAAAAALAAAACQkJCQktIHlheQq4AQAAAAAAAMMBAAAAAAAAAAAAALgBAAAAAAAAuAEAAAAAAAALAAAACQkJCQktIHlheQqrAQAAAAAAALYBAAAAAAAAAAAAAKsBAAAAAAAAqwEAAAAAAAALAAAACQkJCQktIHlheQqfAQAAAAAAAKoBAAAAAAAAAAAAAJ8BAAAAAAAAnwEAAAAAAAALAAAACQkJCQktIHlheQqQAQAAAAAAAJsBAAAAAAAAAAAAAJABAAAAAAAAkAEAAAAAAAALAAAACQkJCQktIHlheQp8AQAAAAAAAIcBAAAAAAAAAAAAAHwBAAAAAAAAfAEAAAAAAAALAAAACQkJCQktIHlheQptAQAAAAAAAHgBAAAAAAAAAAAAAG0BAAAAAAAAbQEAAAAAAAALAAAACQkJCQktIHlheQpeAQAAAAAAAGkBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgIAAAAAAAACAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							128,
+							2,
+							"swap_line_up",
+							null,
+							"BAAAAMMBAAAAAAAAwwEAAAAAAAARAAAACQkJCQktIG5tLWFwcGxldAq2AQAAAAAAAMcBAAAAAAAAAAAAALYBAAAAAAAAtgEAAAAAAAARAAAACQkJCQktIG5tLWFwcGxldAqqAQAAAAAAALsBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzgEAAAAAAADOAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							131,
+							4,
+							"swap_line_up",
+							null,
+							"CAAAAOABAAAAAAAA4AEAAAAAAAAMAAAACQkJCQktIG5jZHUK1AEAAAAAAADgAQAAAAAAAAAAAADUAQAAAAAAANQBAAAAAAAADAAAAAkJCQkJLSBuY2R1CscBAAAAAAAA0wEAAAAAAAAAAAAAxwEAAAAAAADHAQAAAAAAAAwAAAAJCQkJCS0gbmNkdQq7AQAAAAAAAMcBAAAAAAAAAAAAALsBAAAAAAAAuwEAAAAAAAAMAAAACQkJCQktIG5jZHUKqgEAAAAAAAC2AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA6wEAAAAAAADrAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							133,
+							4,
+							"swap_line_up",
+							null,
+							"CAAAAOABAAAAAAAA4AEAAAAAAAAMAAAACQkJCQktIG5hbm8K0wEAAAAAAADfAQAAAAAAAAAAAADTAQAAAAAAANMBAAAAAAAADAAAAAkJCQkJLSBuYW5vCscBAAAAAAAA0wEAAAAAAAAAAAAAxwEAAAAAAADHAQAAAAAAAAwAAAAJCQkJCS0gbmFubwq2AQAAAAAAAMIBAAAAAAAAAAAAALYBAAAAAAAAtgEAAAAAAAAMAAAACQkJCQktIG5hbm8KqgEAAAAAAAC2AQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA6wEAAAAAAADrAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							137,
+							3,
+							"swap_line_down",
+							null,
+							"BgAAALYBAAAAAAAAxQEAAAAAAAAAAAAAmwEAAAAAAACbAQAAAAAAAA8AAAAJCQkJCS0gcG9seWJhcgrCAQAAAAAAANEBAAAAAAAAAAAAAKcBAAAAAAAApwEAAAAAAAAPAAAACQkJCQktIHBvbHliYXIK0wEAAAAAAADiAQAAAAAAAAAAAACzAQAAAAAAALMBAAAAAAAADwAAAAkJCQkJLSBwb2x5YmFyCg",
+							"AQAAAAAAAAABAAAApgEAAAAAAACmAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							141,
+							8,
+							"swap_line_up",
+							null,
+							"EAAAAPgBAAAAAAAA+AEAAAAAAAALAAAACQkJCQktIGdpdArsAQAAAAAAAPcBAAAAAAAAAAAAAOwBAAAAAAAA7AEAAAAAAAALAAAACQkJCQktIGdpdArfAQAAAAAAAOoBAAAAAAAAAAAAAN8BAAAAAAAA3wEAAAAAAAALAAAACQkJCQktIGdpdArTAQAAAAAAAN4BAAAAAAAAAAAAANMBAAAAAAAA0wEAAAAAAAALAAAACQkJCQktIGdpdArEAQAAAAAAAM8BAAAAAAAAAAAAAMQBAAAAAAAAxAEAAAAAAAALAAAACQkJCQktIGdpdAqzAQAAAAAAAL4BAAAAAAAAAAAAALMBAAAAAAAAswEAAAAAAAALAAAACQkJCQktIGdpdAqnAQAAAAAAALIBAAAAAAAAAAAAAKcBAAAAAAAApwEAAAAAAAALAAAACQkJCQktIGdpdAqbAQAAAAAAAKYBAAAAAAAAAAAAAJsBAAAAAAAAmwEAAAAAAAALAAAACQkJCQktIGdpdAqHAQAAAAAAAJIBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgIAAAAAAAACAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							142,
+							4,
+							"swap_line_up",
+							null,
+							"CAAAAIcBAAAAAAAAhwEAAAAAAAALAAAACQkJCQktIGdpdAp4AQAAAAAAAIMBAAAAAAAAAAAAAHgBAAAAAAAAeAEAAAAAAAALAAAACQkJCQktIGdpdAppAQAAAAAAAHQBAAAAAAAAAAAAAGkBAAAAAAAAaQEAAAAAAAALAAAACQkJCQktIGdpdApeAQAAAAAAAGkBAAAAAAAAAAAAAF4BAAAAAAAAXgEAAAAAAAALAAAACQkJCQktIGdpdApUAQAAAAAAAF8BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkQEAAAAAAACRAQAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							145,
+							11,
+							"swap_line_up",
+							null,
+							"FgAAAPcBAAAAAAAA9wEAAAAAAAAMAAAACQkJCQktIGh0b3AK6gEAAAAAAAD2AQAAAAAAAAAAAADqAQAAAAAAAOoBAAAAAAAADAAAAAkJCQkJLSBodG9wCt4BAAAAAAAA6gEAAAAAAAAAAAAA3gEAAAAAAADeAQAAAAAAAAwAAAAJCQkJCS0gaHRvcArPAQAAAAAAANsBAAAAAAAAAAAAAM8BAAAAAAAAzwEAAAAAAAAMAAAACQkJCQktIGh0b3AKvgEAAAAAAADKAQAAAAAAAAAAAAC+AQAAAAAAAL4BAAAAAAAADAAAAAkJCQkJLSBodG9wCrIBAAAAAAAAvgEAAAAAAAAAAAAAsgEAAAAAAACyAQAAAAAAAAwAAAAJCQkJCS0gaHRvcAqmAQAAAAAAALIBAAAAAAAAAAAAAKYBAAAAAAAApgEAAAAAAAAMAAAACQkJCQktIGh0b3AKkgEAAAAAAACeAQAAAAAAAAAAAACSAQAAAAAAAJIBAAAAAAAADAAAAAkJCQkJLSBodG9wCoMBAAAAAAAAjwEAAAAAAAAAAAAAgwEAAAAAAACDAQAAAAAAAAwAAAAJCQkJCS0gaHRvcAp0AQAAAAAAAIABAAAAAAAAAAAAAHQBAAAAAAAAdAEAAAAAAAAMAAAACQkJCQktIGh0b3AKaQEAAAAAAAB1AQAAAAAAAAAAAABpAQAAAAAAAGkBAAAAAAAADAAAAAkJCQkJLSBodG9wCl8BAAAAAAAAawEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgIAAAAAAAACAgAAAAAAAAAAAAAAAGRA"
+						],
+						[
+							167,
+							1,
+							"insert",
+							{
+								"characters": "\n-"
+							},
+							"AwAAACwBAAAAAAAALQEAAAAAAAAAAAAALQEAAAAAAAAyAQAAAAAAAAAAAAAyAQAAAAAAADMBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALAEAAAAAAAAsAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							168,
+							1,
+							"insert",
+							{
+								"characters": " devtools"
+							},
+							"CQAAADMBAAAAAAAANAEAAAAAAAAAAAAANAEAAAAAAAA1AQAAAAAAAAAAAAA1AQAAAAAAADYBAAAAAAAAAAAAADYBAAAAAAAANwEAAAAAAAAAAAAANwEAAAAAAAA4AQAAAAAAAAAAAAA4AQAAAAAAADkBAAAAAAAAAAAAADkBAAAAAAAAOgEAAAAAAAAAAAAAOgEAAAAAAAA7AQAAAAAAAAAAAAA7AQAAAAAAADwBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwEAAAAAAAAzAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							187,
+							1,
+							"insert",
+							{
+								"characters": "\n-"
+							},
+							"AwAAAOoBAAAAAAAA6wEAAAAAAAAAAAAA6wEAAAAAAADwAQAAAAAAAAAAAADwAQAAAAAAAPEBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA6gEAAAAAAADqAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							188,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAPEBAAAAAAAA8gEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA8QEAAAAAAADxAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							190,
+							1,
+							"",
+							null,
+							"AQAAAPIBAAAAAAAA+QEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA8gEAAAAAAADyAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							203,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAGYCAAAAAAAAZwIAAAAAAAAAAAAAZwIAAAAAAABsAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZgIAAAAAAABmAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							204,
+							3,
+							"left_delete",
+							null,
+							"AwAAAGsCAAAAAAAAawIAAAAAAAABAAAACWoCAAAAAAAAagIAAAAAAAABAAAACWkCAAAAAAAAaQIAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAbAIAAAAAAABsAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							205,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AwAAAGkCAAAAAAAAagIAAAAAAAAAAAAAagIAAAAAAABsAgAAAAAAAAAAAABnAgAAAAAAAGcCAAAAAAAAAgAAAAkJ",
+							"AQAAAAAAAAABAAAAaQIAAAAAAABpAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							207,
+							1,
+							"",
+							null,
+							"AQAAAGoCAAAAAAAA3AIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagIAAAAAAABqAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							219,
+							1,
+							"insert",
+							{
+								"characters": "\n-"
+							},
+							"AwAAAFUCAAAAAAAAVgIAAAAAAAAAAAAAVgIAAAAAAABbAgAAAAAAAAAAAABbAgAAAAAAAFwCAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVQIAAAAAAABVAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							220,
+							1,
+							"insert",
+							{
+								"characters": " trasd"
+							},
+							"BgAAAFwCAAAAAAAAXQIAAAAAAAAAAAAAXQIAAAAAAABeAgAAAAAAAAAAAABeAgAAAAAAAF8CAAAAAAAAAAAAAF8CAAAAAAAAYAIAAAAAAAAAAAAAYAIAAAAAAABhAgAAAAAAAAAAAABhAgAAAAAAAGICAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXAIAAAAAAABcAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							221,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGECAAAAAAAAYQIAAAAAAAABAAAAZA",
+							"AQAAAAAAAAABAAAAYgIAAAAAAABiAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							222,
+							1,
+							"insert",
+							{
+								"characters": "h-cli"
+							},
+							"BQAAAGECAAAAAAAAYgIAAAAAAAAAAAAAYgIAAAAAAABjAgAAAAAAAAAAAABjAgAAAAAAAGQCAAAAAAAAAAAAAGQCAAAAAAAAZQIAAAAAAAAAAAAAZQIAAAAAAABmAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYQIAAAAAAABhAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							244,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"BQAAAO0CAAAAAAAA7gIAAAAAAAAAAAAA7gIAAAAAAAD2AgAAAAAAAAAAAAD2AgAAAAAAAPcCAAAAAAAAAAAAAPcCAAAAAAAA/wIAAAAAAAAAAAAA7gIAAAAAAADuAgAAAAAAAAgAAAAgICAgICAgIA",
+							"AQAAAAAAAAABAAAA7QIAAAAAAADtAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							245,
+							3,
+							"left_delete",
+							null,
+							"AwAAAPYCAAAAAAAA9gIAAAAAAAABAAAAIPUCAAAAAAAA9QIAAAAAAAABAAAAIPQCAAAAAAAA9AIAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAA9wIAAAAAAAD3AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							246,
+							1,
+							"paste",
+							null,
+							"AQAAAPQCAAAAAAAAZgMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA9AIAAAAAAAD0AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							250,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPMCAAAAAAAA8wIAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAA9AIAAAAAAAD0AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							257,
+							1,
+							"insert",
+							{
+								"characters": "docker"
+							},
+							"BwAAAAwDAAAAAAAADQMAAAAAAAAAAAAADQMAAAAAAAANAwAAAAAAAAMAAABzc2gNAwAAAAAAAA4DAAAAAAAAAAAAAA4DAAAAAAAADwMAAAAAAAAAAAAADwMAAAAAAAAQAwAAAAAAAAAAAAAQAwAAAAAAABEDAAAAAAAAAAAAABEDAAAAAAAAEgMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADAMAAAAAAAAPAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							264,
+							1,
+							"insert",
+							{
+								"characters": "docker"
+							},
+							"BwAAADgDAAAAAAAAOQMAAAAAAAAAAAAAOQMAAAAAAAA5AwAAAAAAAAQAAABzc2hkOQMAAAAAAAA6AwAAAAAAAAAAAAA6AwAAAAAAADsDAAAAAAAAAAAAADsDAAAAAAAAPAMAAAAAAAAAAAAAPAMAAAAAAAA9AwAAAAAAAAAAAAA9AwAAAAAAAD4DAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOAMAAAAAAAA8AwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							276,
+							2,
+							"left_delete",
+							null,
+							"AgAAAGkDAAAAAAAAaQMAAAAAAAABAAAAZGgDAAAAAAAAaAMAAAAAAAABAAAAZQ",
+							"AQAAAAAAAAABAAAAagMAAAAAAABqAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							277,
+							1,
+							"insert",
+							{
+								"characters": "ed"
+							},
+							"AgAAAGgDAAAAAAAAaQMAAAAAAAAAAAAAaQMAAAAAAABqAwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaAMAAAAAAABoAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							278,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAGoDAAAAAAAAawMAAAAAAAAAAAAAawMAAAAAAABzAwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagMAAAAAAABqAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							279,
+							4,
+							"left_delete",
+							null,
+							"BAAAAHIDAAAAAAAAcgMAAAAAAAABAAAAIHEDAAAAAAAAcQMAAAAAAAABAAAAIHADAAAAAAAAcAMAAAAAAAABAAAAIG8DAAAAAAAAbwMAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAcwMAAAAAAABzAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							280,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AwAAAG8DAAAAAAAAcAMAAAAAAAAAAAAAcAMAAAAAAAB0AwAAAAAAAAAAAABrAwAAAAAAAGsDAAAAAAAABAAAACAgICA",
+							"AQAAAAAAAAABAAAAbwMAAAAAAABvAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							282,
+							1,
+							"",
+							null,
+							"AQAAAHADAAAAAAAA7gMAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcAMAAAAAAABwAwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							336,
+							1,
+							"unindent",
+							null,
+							"AgAAAHQEAAAAAAAAdAQAAAAAAAABAAAACagEAAAAAAAAqAQAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAswQAAAAAAAB9BAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							368,
+							1,
+							"reindent",
+							null,
+							"AQAAAJUFAAAAAAAAmQUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlQUAAAAAAACVBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							369,
+							2,
+							"left_delete",
+							null,
+							"AgAAAJgFAAAAAAAAmAUAAAAAAAABAAAACZcFAAAAAAAAlwUAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAmQUAAAAAAACZBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							376,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"BgAAAJQFAAAAAAAAlQUAAAAAAAAAAAAAlQUAAAAAAACZBQAAAAAAAAAAAACaBQAAAAAAAJoFAAAAAAAAAgAAAAkJmQUAAAAAAACaBQAAAAAAAAAAAACaBQAAAAAAAJ4FAAAAAAAAAAAAAJUFAAAAAAAAlQUAAAAAAAAEAAAACQkJCQ",
+							"AQAAAAAAAAABAAAAlAUAAAAAAACUBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							377,
+							2,
+							"left_delete",
+							null,
+							"AgAAAJkFAAAAAAAAmQUAAAAAAAABAAAACZgFAAAAAAAAmAUAAAAAAAABAAAACQ",
+							"AQAAAAAAAAABAAAAmgUAAAAAAACaBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							379,
+							1,
+							"",
+							null,
+							"AQAAAJgFAAAAAAAArQYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAUAAAAAAACYBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							382,
+							2,
+							"indent",
+							null,
+							"DAAAAMEFAAAAAAAAwgUAAAAAAAAAAAAAygUAAAAAAADLBQAAAAAAAAAAAADoBQAAAAAAAOkFAAAAAAAAAAAAAAYGAAAAAAAABwYAAAAAAAAAAAAAEAYAAAAAAAARBgAAAAAAAAAAAABiBgAAAAAAAGMGAAAAAAAAAAAAAMEFAAAAAAAAwgUAAAAAAAAAAAAAywUAAAAAAADMBQAAAAAAAAAAAADqBQAAAAAAAOsFAAAAAAAAAAAAAAkGAAAAAAAACgYAAAAAAAAAAAAAFAYAAAAAAAAVBgAAAAAAAAAAAABnBgAAAAAAAGgGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxAUAAAAAAABsBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							390,
+							3,
+							"unindent",
+							null,
+							"EgAAAMEFAAAAAAAAwQUAAAAAAAABAAAACcoFAAAAAAAAygUAAAAAAAABAAAACegFAAAAAAAA6AUAAAAAAAABAAAACQYGAAAAAAAABgYAAAAAAAABAAAACRAGAAAAAAAAEAYAAAAAAAABAAAACWIGAAAAAAAAYgYAAAAAAAABAAAACcEFAAAAAAAAwQUAAAAAAAABAAAACckFAAAAAAAAyQUAAAAAAAABAAAACeYFAAAAAAAA5gUAAAAAAAABAAAACQMGAAAAAAAAAwYAAAAAAAABAAAACQwGAAAAAAAADAYAAAAAAAABAAAACV0GAAAAAAAAXQYAAAAAAAABAAAACcEFAAAAAAAAwQUAAAAAAAACAAAAICDHBQAAAAAAAMcFAAAAAAAAAgAAACAg4gUAAAAAAADiBQAAAAAAAAIAAAAgIP0FAAAAAAAA/QUAAAAAAAACAAAAICAEBgAAAAAAAAQGAAAAAAAAAgAAACAgUwYAAAAAAABTBgAAAAAAAAIAAAAgIA",
+							"AQAAAAAAAAABAAAAygUAAAAAAAB3BgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							391,
+							1,
+							"unindent",
+							null,
+							"BgAAAMEFAAAAAAAAwQUAAAAAAAABAAAAIMYFAAAAAAAAxgUAAAAAAAACAAAAICDfBQAAAAAAAN8FAAAAAAAAAgAAACAg+AUAAAAAAAD4BQAAAAAAAAEAAAAg/gUAAAAAAAD+BQAAAAAAAAIAAAAgIEsGAAAAAAAASwYAAAAAAAACAAAAICA",
+							"AQAAAAAAAAABAAAAxgUAAAAAAABfBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							392,
+							3,
+							"indent",
+							null,
+							"EgAAAMEFAAAAAAAAwgUAAAAAAAAAAAAAxwUAAAAAAADIBQAAAAAAAAAAAADhBQAAAAAAAOIFAAAAAAAAAAAAAPsFAAAAAAAA/AUAAAAAAAAAAAAAAgYAAAAAAAADBgAAAAAAAAAAAABQBgAAAAAAAFEGAAAAAAAAAAAAAMEFAAAAAAAAwgUAAAAAAAAAAAAAyAUAAAAAAADJBQAAAAAAAAAAAADjBQAAAAAAAOQFAAAAAAAAAAAAAP4FAAAAAAAA/wUAAAAAAAAAAAAABgYAAAAAAAAHBgAAAAAAAAAAAABVBgAAAAAAAFYGAAAAAAAAAAAAAMEFAAAAAAAAwgUAAAAAAAAAAAAAyQUAAAAAAADKBQAAAAAAAAAAAADlBQAAAAAAAOYFAAAAAAAAAAAAAAEGAAAAAAAAAgYAAAAAAAAAAAAACgYAAAAAAAALBgAAAAAAAAAAAABaBgAAAAAAAFsGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxQUAAAAAAABVBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							395,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJgFAAAAAAAAmAUAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAmQUAAAAAAACZBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							403,
+							2,
+							"left_delete",
+							null,
+							"AgAAANsFAAAAAAAA2wUAAAAAAAAEAAAAcmVwb9oFAAAAAAAA2gUAAAAAAAABAAAALg",
+							"AQAAAAAAAAABAAAA2wUAAAAAAADfBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							408,
+							8,
+							"left_delete",
+							null,
+							"CAAAABEGAAAAAAAAEQYAAAAAAAABAAAAIBAGAAAAAAAAEAYAAAAAAAABAAAAOg8GAAAAAAAADwYAAAAAAAABAAAAbw4GAAAAAAAADgYAAAAAAAABAAAAcA0GAAAAAAAADQYAAAAAAAABAAAAZQwGAAAAAAAADAYAAAAAAAABAAAAcgsGAAAAAAAACwYAAAAAAAABAAAAIAoGAAAAAAAACgYAAAAAAAABAAAAew",
+							"AQAAAAAAAAABAAAAEgYAAAAAAAASBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							413,
+							1,
+							"left_delete",
+							null,
+							"AQAAADEGAAAAAAAAMQYAAAAAAAAaAAAALCBkZXN0OiAnL3BhdGgvdG8vZGVzdDEnIH0",
+							"AQAAAAAAAAABAAAAMQYAAAAAAABLBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							418,
+							1,
+							"insert_snippet",
+							{
+								"contents": "'${0:$SELECTION}'"
+							},
+							"AgAAAGYGAAAAAAAAZgYAAAAAAAAaAAAAJywgZGVzdDogJy9wYXRoL3RvL2Rlc3QyJyBmBgAAAAAAAIIGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAgAYAAAAAAABmBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							419,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGcGAAAAAAAAZwYAAAAAAAAaAAAAJywgZGVzdDogJy9wYXRoL3RvL2Rlc3QyJyA",
+							"AQAAAAAAAAABAAAAZwYAAAAAAACBBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							420,
+							2,
+							"right_delete",
+							null,
+							"AgAAAGcGAAAAAAAAZwYAAAAAAAABAAAAJ2cGAAAAAAAAZwYAAAAAAAABAAAAfQ",
+							"AQAAAAAAAAABAAAAZwYAAAAAAABnBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							430,
+							8,
+							"left_delete",
+							null,
+							"CAAAAD8GAAAAAAAAPwYAAAAAAAABAAAAID4GAAAAAAAAPgYAAAAAAAABAAAAOj0GAAAAAAAAPQYAAAAAAAABAAAAbzwGAAAAAAAAPAYAAAAAAAABAAAAcDsGAAAAAAAAOwYAAAAAAAABAAAAZToGAAAAAAAAOgYAAAAAAAABAAAAcjkGAAAAAAAAOQYAAAAAAAABAAAAIDgGAAAAAAAAOAYAAAAAAAABAAAAew",
+							"AQAAAAAAAAABAAAAQAYAAAAAAABABgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							453,
+							4,
+							"unindent",
+							null,
+							"CAAAAMgFAAAAAAAAyAUAAAAAAAABAAAACd4FAAAAAAAA3gUAAAAAAAABAAAACcgFAAAAAAAAyAUAAAAAAAABAAAACd0FAAAAAAAA3QUAAAAAAAABAAAACcgFAAAAAAAAyAUAAAAAAAABAAAACdwFAAAAAAAA3AUAAAAAAAABAAAACcgFAAAAAAAAyAUAAAAAAAABAAAAINsFAAAAAAAA2wUAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAzQUAAAAAAADmBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							454,
+							4,
+							"indent",
+							null,
+							"CAAAAMgFAAAAAAAAyQUAAAAAAAAAAAAA3AUAAAAAAADdBQAAAAAAAAAAAADIBQAAAAAAAMkFAAAAAAAAAAAAAN0FAAAAAAAA3gUAAAAAAAAAAAAAyAUAAAAAAADJBQAAAAAAAAAAAADeBQAAAAAAAN8FAAAAAAAAAAAAAMgFAAAAAAAAyQUAAAAAAAAAAAAA3wUAAAAAAADgBQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAyQUAAAAAAADeBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							457,
+							4,
+							"unindent",
+							null,
+							"CAAAAAQGAAAAAAAABAYAAAAAAAABAAAACTEGAAAAAAAAMQYAAAAAAAABAAAACQQGAAAAAAAABAYAAAAAAAABAAAACTAGAAAAAAAAMAYAAAAAAAABAAAACQQGAAAAAAAABAYAAAAAAAABAAAACS8GAAAAAAAALwYAAAAAAAABAAAACQQGAAAAAAAABAYAAAAAAAABAAAAIC4GAAAAAAAALgYAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAACQYAAAAAAAA6BgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							458,
+							4,
+							"indent",
+							null,
+							"CAAAAAQGAAAAAAAABQYAAAAAAAAAAAAALwYAAAAAAAAwBgAAAAAAAAAAAAAEBgAAAAAAAAUGAAAAAAAAAAAAADAGAAAAAAAAMQYAAAAAAAAAAAAABAYAAAAAAAAFBgAAAAAAAAAAAAAxBgAAAAAAADIGAAAAAAAAAAAAAAQGAAAAAAAABQYAAAAAAAAAAAAAMgYAAAAAAAAzBgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABQYAAAAAAAAyBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							467,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJQFAAAAAAAAlAUAAAAAAADLAAAACgoJCS0gbmFtZTogQ2xvbmUgbXVsdGlwbGUgR2l0IHJlcG9zaXRvcmllcwoJCQlnaXQ6CgkJCQlyZXBvOiAie3sgaXRlbSB9fSIKCQkJCWRlc3Q6ICJ7eyBpdGVtLmRlc3QgfX0iCgkJCWxvb3A6CgkJCQktICdodHRwczovL2dpdGh1Yi5jb20vdXNlcm5hbWUvcmVwbzEuZ2l0JwoJCQkJLSAnaHR0cHM6Ly9naXRodWIuY29tL3VzZXJuYW1lL3JlcG8yLmdpdCc",
+							"AQAAAAAAAAABAAAAXwYAAAAAAACUBQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							495,
+							1,
+							"insert",
+							{
+								"characters": "yes"
+							},
+							"BAAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA0AAAAAAAAAAQAAAB0cnVlNAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/giovanni/Projects/ansible/ansible-desktop/inventory",
+					"settings":
+					{
+						"buffer_size": 32,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							5,
+							1,
+							"",
+							null,
+							"AQAAAAAAAAAAAAAACgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAAoAAAAAAAAACwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": "ansi"
+							},
+							"BAAAAAsAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							4,
+							"left_delete",
+							null,
+							"BAAAAA4AAAAAAAAADgAAAAAAAAABAAAAaQ0AAAAAAAAADQAAAAAAAAABAAAAcwwAAAAAAAAADAAAAAAAAAABAAAAbgsAAAAAAAAACwAAAAAAAAABAAAAYQ",
+							"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "user"
+							},
+							"BAAAAAsAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "=giovanni"
+							},
+							"CQAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							1,
+							"paste",
+							null,
+							"AgAAAAsAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXAAAAAAAAAAQAAAB1c2Vy",
+							"AQAAAAAAAAABAAAACwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"contents": "---\n- hosts: localhost\n  connection: local\n  become: true #enables sudo\n\n  tasks:\n    - name: install packages\n      pacman:\n        name: \n          - devtools\n          - i3\n          - tmux",
+					"file": "/home/giovanni/Projects/ansible/ansible-desktop/test.yaml",
+					"file_size": 192,
+					"file_write_time": 133307196485928634,
+					"settings":
+					{
+						"buffer_size": 192,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							2,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAAUAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGgCAAAAAAAAaAIAAAAAAADoAQAACgogICAgLSBuYW1lOiBDcmVhdGUgUHJvamVjdHMgZGlyZWN0b3J5CiAgICAgIGZpbGU6CiAgICAgICAgcGF0aDogfi9Qcm9qZWN0cwogICAgICAgIHN0YXRlOiBkaXJlY3RvcnkKCiAgICAtIG5hbWU6IENsb25lIGRvdGZpbGVzIHJlcG9zaXRvcnkKICAgICAgZ2l0OgogICAgICAgICAgcmVwbzogaHR0cHM6Ly9naXRodWIuY29tL3R3b29qb28vZG90ZmlsZXMuZ2l0CiAgICAgICAgICBkZXN0OiB+L1Byb2plY3RzCgogICAgLSBuYW1lOiBTeW5jIGRvdGZpbGVzCiAgICAgIHN5bmNocm9uaXplOgogICAgICAgIHNyYzogfi9Qcm9qZWN0cy9kb3RmaWxlcy8qCiAgICAgICAgZGVzdDogfi8KCiAgICAtIG5hbWU6IENyZWF0ZSBTbWFydFByaWNpbmcvc291cmNlcyBkaXJlY3RvcnkKICAgICAgZmlsZToKICAgICAgICBwYXRoOiB+L1NtYXJ0UHJpY2luZy9zb3VyY2VzCiAgICAgICAgc3RhdGU6IGRpcmVjdG9yeQogICAgICAgIHJlY3Vyc2U6IHllcwoKICAgIAoKCiA",
+							"AQAAAAAAAAABAAAAaAIAAAAAAABQBAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJoAAAAAAAAAmgAAAAAAAADOAQAACiAgICAgICAgICAtIHhiaW5ka2V5cwogICAgICAgICAgLSBwb2x5YmFyCiAgICAgICAgICAtIHJvZmkKICAgICAgICAgIC0gcnN5bmMKICAgICAgICAgIC0gbm0tYXBwbGV0CiAgICAgICAgICAtIGNiYXR0aWNvbgogICAgICAgICAgLSBuYW5vCiAgICAgICAgICAtIGN1cmwKICAgICAgICAgIC0gaHRvcAogICAgICAgICAgLSBnaXQKICAgICAgICAgIC0geWF5CiAgICAgICAgICAtIHRtdXgKICAgICAgICAgIC0gdG11eGluYXRvcgogICAgICAgICAgLSBkb2NrZXIKICAgICAgICAgIC0ga3ViZWN0bAogICAgICAgICAgLSBjaHJvbWl1bQogICAgICAgICAgLSBiZWVrZWVwZXItc3R1ZGlvCiAgICAgICAgICAtIGFsYWNyaXR0eQogICAgICAgICAgLSB5YWt1YWtlCiAgICAgICAgICAtIGRvY3RsCiAgICAgICAgICAtIGxlbnMtZGVza3RvcAogICAgICAgICAgLSBzdWJsaW1lLXRleHQtNAogICAgICAgICAgLSBjb2Rl",
+							"AQAAAAAAAAABAAAAaAIAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"insert",
+							{
+								"characters": "\n-"
+							},
+							"AwAAAJoAAAAAAAAAmwAAAAAAAAAAAAAAmwAAAAAAAAClAAAAAAAAAAAAAAClAAAAAAAAAKYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmgAAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							1,
+							"insert",
+							{
+								"characters": " tmux"
+							},
+							"BQAAAKYAAAAAAAAApwAAAAAAAAAAAAAApwAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKkAAAAAAAAAAAAAAKkAAAAAAAAAqgAAAAAAAAAAAAAAqgAAAAAAAACrAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApgAAAAAAAACmAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							49,
+							1,
+							"insert",
+							{
+								"characters": "\n-"
+							},
+							"BAAAAIsAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJYAAAAAAAAAAAAAAJYAAAAAAAAAlwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": " devtools"
+							},
+							"CQAAAJcAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACZAAAAAAAAAAAAAACZAAAAAAAAAJoAAAAAAAAAAAAAAJoAAAAAAAAAmwAAAAAAAAAAAAAAmwAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJ0AAAAAAAAAAAAAAJ0AAAAAAAAAngAAAAAAAAAAAAAAngAAAAAAAACfAAAAAAAAAAAAAACfAAAAAAAAAKAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlwAAAAAAAACXAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ans",
+						"Set Syntax: Ansible"
+					],
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"i3",
+						"Set Syntax: i3-wm Config"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"scala",
+						"Scalafmt: Format current file"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
+						"syn ts",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"theme",
+						"UI: Customize Theme"
+					],
+					[
+						"inden",
+						"Indent JSON"
+					],
+					[
+						"ma",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"mark",
+						"Set Syntax: Markdown"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"jso",
+						"Set Syntax: JSON"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"reso",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"window",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setwin",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"eas",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"remv",
+						"Package Control: Remove Channel"
+					],
+					[
+						"open woe",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"work",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"easy",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"for",
+						"LSP: Format File"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"simpl",
+						"SimpleFuzzy: Active Project…"
+					],
+					[
+						"terminus se",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"mar",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"i",
+						"Indent JSON"
+					],
+					[
+						"nav",
+						"File Navigator: Open"
+					],
+					[
+						"m",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"keyb",
+						"Preferences: Key Bindings"
+					],
+					[
+						"inde",
+						"Indent JSON"
+					],
+					[
+						"js",
+						"Set Syntax: JSON"
+					],
+					[
+						"ty",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"synt typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"ind",
+						"Indent XML"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"isnt",
+						"Package Control: Install Package"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"forma",
+						"LSP: Format File"
+					],
+					[
+						"format",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"formatt",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"j",
+						"Set Syntax: JSON"
+					],
+					[
+						"term",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"formatter",
+						"Formatter: Beautify With ESLint"
+					],
+					[
+						"termi",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"ui",
+						"UI: Customize Theme"
+					],
+					[
+						"lsp-t",
+						"Preferences: LSP-typescript Settings"
+					],
+					[
+						"eslin",
+						"ESLint"
+					],
+					[
+						"linter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"subl",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublime",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"typescript",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"ui tm",
+						"UI: Select Theme"
+					],
+					[
+						"linte",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"lin",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"lint",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"linter setti",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimeLinter sett",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimelinter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"inste",
+						"Package Control: Install Package"
+					],
+					[
+						"a",
+						"ArcticTypescript: Reopen Project (after config changes)"
+					],
+					[
+						"the",
+						"UI: Select Theme"
+					],
+					[
+						"arct",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typesc",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"fmt",
+						"Fmt: Format Selection"
+					],
+					[
+						"codeforma",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"codeF",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"isntal",
+						"Package Control: Install Package"
+					],
+					[
+						"ui ",
+						"UI: Select Theme"
+					],
+					[
+						"ui t",
+						"UI: Select Theme"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"select col",
+						"UI: Select Color Scheme"
+					],
+					[
+						"terminus",
+						"Terminus: Toggle Panel"
+					],
+					[
+						"termin",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/giovanni/Projects/ansible/ansible-desktop"
+			],
+			"file_history":
+			[
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-prod.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/routes.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/deploy.js",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Alpinebits.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/upgrade_cron_jobs.sh",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/checkReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/cron_migration.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/kafka.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/alicestream.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/integrationSpecs.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Hotelizer.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/httpLogging/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/httpLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/handlers/receiveReservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/getPropertyGroupNetwork.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/jobLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/reservationErrors.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/CinqueStelle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationContext.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/automapping/utils.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/reconsume.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/utils/route-model.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/autodiscovery.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/fastify.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/nightPrices.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/splitReservationByNumUnits.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/Smartpricing.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Asa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beds24.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bedzzle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Begenius.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bemyguest.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Besync.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Casablanca.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ciaobooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cubilis.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Dirs21.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Easichannel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Elite.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ericsoft.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/HotelSpider.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ibelsa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Iperbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Kognitiv.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/KrossBooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Madeep.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Mews.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Myguestcare.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Octorate.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Passepartout.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Protel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Quovai.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Roomcloud.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sabee.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scidoo.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scrigno.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Simplebooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Siteminder.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Slope.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Smoobu.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/SMX.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sysdat.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Verticalbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Viato.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Vioma.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/WebHotelier.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Wubook.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Xenion.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zak.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zimmersoftware.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/models/Integration.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/types/lib.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Time.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Got.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/dates.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JSONValue.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/ReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/constants/MessageKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationSpecs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/ErmesHotels.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Messages.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/interfaces/http.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JobLogKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/GatewayMiddlewares.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/nightPriceCheker.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/schemas/reservation.schema.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/tsconfig.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/helm-chart/Chart.yaml"
+			],
+			"find":
+			{
+				"height": 32.0
+			},
+			"find_in_files":
+			{
+				"height": 391.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"prote",
+					"brem",
+					"formatReservationSB",
+					"formatReservationsSB",
+					"sb",
+					"db",
+					"smartpa",
+					"ack",
+					"CronJob"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/giovanni/Projects/ansible/ansible-desktop"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/giovanni/Projects/ansible/ansible-desktop/local.yml",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1435,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										578,
+										578
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html, text.xml"
+										},
+										{
+											"rhs_empty": true,
+											"selector": "punctuation.accessor"
+										}
+									],
+									"lsp_active": true,
+									"lsp_uri": "file:///home/giovanni/Projects/ansible/ansible-desktop/local.yml",
+									"set_window_title_was_dirty": false,
+									"show_definitions": true,
+									"syntax": "Packages/Ansible/Ansible.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/giovanni/Projects/ansible/ansible-desktop/inventory",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 32,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										23,
+										23
+									],
+									[
+										32,
+										32
+									]
+								],
+								"settings":
+								{
+									"lsp_uri": "file:///home/giovanni/Projects/ansible/ansible-desktop/inventory",
+									"set_window_title_was_dirty": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/giovanni/Projects/ansible/ansible-desktop/test.yaml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 192,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										160,
+										160
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html, text.xml"
+										},
+										{
+											"rhs_empty": true,
+											"selector": "punctuation.accessor"
+										}
+									],
+									"lsp_active": true,
+									"lsp_hover_provider_count": 1,
+									"lsp_uri": "file:///home/giovanni/Projects/ansible/ansible-desktop/test.yaml",
+									"set_window_title_was_dirty": false,
+									"show_definitions": false,
+									"syntax": "Packages/YAML/YAML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 127.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.Fmt":
+			{
+				"height": 150.0
+			},
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 156.0
+			},
+			"output.Terminus":
+			{
+				"height": 563.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 156.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups-dummy":
+			{
+				"height": 0.0
+			},
+			"output.references":
+			{
+				"height": 439.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,1,0,0,0,44,1920,1080,1920,1080,1",
+			"project": "",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 350.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 592.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 378.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 593,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"packa",
+						"packageVersion"
+					],
+					[
+						"buil",
+						"buildImageTag"
+					],
+					[
+						"Cr",
+						"CronJobKind"
+					],
+					[
+						"cong",
+						"config"
+					],
+					[
+						"Each",
+						"EachMessageHandler"
+					],
+					[
+						"On",
+						"OnReservations"
+					],
+					[
+						"on",
+						"onReservations"
+					],
+					[
+						"re",
+						"response"
+					],
+					[
+						"JSOV",
+						"JSONValue"
+					],
+					[
+						"dow",
+						"downloadReservations"
+					],
+					[
+						"Base",
+						"BasePipelineMessage"
+					],
+					[
+						"Reser",
+						"ReservationToDownload"
+					],
+					[
+						"Rese",
+						"ReservationParsed"
+					],
+					[
+						"Reservat",
+						"ReservationData"
+					],
+					[
+						"R",
+						"ReservationRaw"
+					],
+					[
+						"RESE",
+						"RESERVATION_MESSAGE_KIND"
+					],
+					[
+						"do",
+						"dotenv"
+					],
+					[
+						"co",
+						"config"
+					],
+					[
+						"kafkas",
+						"kafkaReconsume"
+					],
+					[
+						"da",
+						"dateFormat"
+					],
+					[
+						"Rout",
+						"RouteContext"
+					],
+					[
+						"FastifyRe",
+						"FastifyRequest"
+					],
+					[
+						"Proper",
+						"PropertyGroup"
+					],
+					[
+						"pr",
+						"prices-v2"
+					],
+					[
+						"mat",
+						"matchEndpoint"
+					],
+					[
+						"Fas",
+						"FastifyRegister"
+					],
+					[
+						"P",
+						"POST"
+					],
+					[
+						"Route",
+						"RouteOptions"
+					],
+					[
+						"Con",
+						"ConfigurationParameters"
+					],
+					[
+						"Fastify",
+						"FastifyInstance"
+					],
+					[
+						"Random",
+						"Random - scala.util"
+					],
+					[
+						"Prin",
+						"PrintAkktor com.dataproc"
+					],
+					[
+						"Beh",
+						"Behavior"
+					],
+					[
+						"ActorCo",
+						"TypedActorContext - akka.actor.typed"
+					],
+					[
+						"sp",
+						"spawn[U](behavior: Behavior[U], name: String, props: Props = ...): ActorRef[U]"
+					],
+					[
+						"Ini",
+						"InitializeMessage com.dataproc.CounterMain"
+					],
+					[
+						"Be",
+						"Behaviors akka.actor.typed.scaladsl"
+					],
+					[
+						"set",
+						"setup[T](factory: ActorContext[T] => Behavior[T]): Behavior[T]"
+					],
+					[
+						"RE",
+						"RESET: \"\\u001B[0m\""
+					],
+					[
+						"Bu",
+						"BufferedSource scala.io"
+					],
+					[
+						"Buffered",
+						"BufferedInputStream - java.io"
+					],
+					[
+						"to",
+						"toString(): String"
+					],
+					[
+						"BL",
+						"BLUE: \"\\u001B[34m\""
+					],
+					[
+						"Re",
+						"REVERSED: \"\\u001B[7m\""
+					],
+					[
+						"pri",
+						"println(): Unit"
+					],
+					[
+						"Obj",
+						"ObjectKey"
+					],
+					[
+						"F",
+						"FromIntervalWithGenerator"
+					],
+					[
+						"FromI",
+						"FromIntervalWithoutGenerator"
+					],
+					[
+						"Extr",
+						"ExtractReturnTypes"
+					],
+					[
+						"Tas",
+						"TaskAfterSource"
+					],
+					[
+						"from",
+						"fromObject"
+					],
+					[
+						"fi",
+						"filterArray"
+					],
+					[
+						"l",
+						"length"
+					],
+					[
+						"le",
+						"length"
+					],
+					[
+						"filt",
+						"filterArray"
+					],
+					[
+						"Stora",
+						"StorageKind"
+					],
+					[
+						"kS",
+						"kSource"
+					],
+					[
+						"pat",
+						"parseInt"
+					],
+					[
+						"Ex",
+						"ExtendTask"
+					],
+					[
+						"K",
+						"kSink"
+					],
+					[
+						"loc",
+						"localClient"
+					],
+					[
+						"Ka",
+						"KafkaSink"
+					],
+					[
+						"Stor",
+						"StorageKind"
+					],
+					[
+						"S",
+						"StorageKind"
+					],
+					[
+						"Sto",
+						"MakeStorage"
+					],
+					[
+						"Key",
+						"KeyType"
+					],
+					[
+						"Task",
+						"TaskOfObject"
+					],
+					[
+						"s",
+						"split"
+					],
+					[
+						"fl",
+						"flatMap"
+					],
+					[
+						"un",
+						"unlockMicrophone"
+					],
+					[
+						"lock",
+						"lockMicrophone"
+					],
+					[
+						"se",
+						"setAction"
+					],
+					[
+						"p",
+						"phrasesToSpeech"
+					],
+					[
+						"createC",
+						"createChatCompletion"
+					],
+					[
+						"Op",
+						"OpenAIApi"
+					],
+					[
+						"setAction",
+						"setAction"
+					],
+					[
+						"pa",
+						"parseInt"
+					],
+					[
+						"ra",
+						"randomUUID"
+					],
+					[
+						"ct",
+						"node:crypto"
+					],
+					[
+						"e",
+						"extraParams?"
+					],
+					[
+						"as",
+						"asProducer?"
+					],
+					[
+						"pro",
+						"propertyGroup"
+					],
+					[
+						"rec",
+						"reconsumeFrom"
+					],
+					[
+						"isSa",
+						"isSameOrAfter"
+					],
+					[
+						"pg",
+						"pgId"
+					],
+					[
+						"sendin",
+						"SendingMessageArrow"
+					],
+					[
+						"Reserva",
+						"ReservationsRaw"
+					],
+					[
+						"kaf",
+						"kafkaClientLocal"
+					],
+					[
+						"ran",
+						"randomUUID"
+					],
+					[
+						"RawRe",
+						"ReservationRawMessage"
+					],
+					[
+						"kafka",
+						"kafkaClientLocal"
+					],
+					[
+						"ka",
+						"kafkaClientLocal"
+					],
+					[
+						"get",
+						"getAllMetatada"
+					],
+					[
+						"ex",
+						"externalId"
+					],
+					[
+						"bui",
+						"buildCassandraClient"
+					],
+					[
+						"ge",
+						"getReservationExternalId"
+					],
+					[
+						"in",
+						"integration"
+					],
+					[
+						"IN",
+						"INT_LIB"
+					],
+					[
+						"c",
+						"cqlClient"
+					],
+					[
+						"AS",
+						"ASTRA_CONNECTION_BUNDLE"
+					],
+					[
+						"g",
+						"getSpecs"
+					],
+					[
+						"Integr",
+						"IntegrationSpecs"
+					],
+					[
+						"Par",
+						"Partners"
+					],
+					[
+						"au",
+						"autoCommit"
+					],
+					[
+						"toBE",
+						"toBeFalsy"
+					],
+					[
+						"time",
+						"timeStamp"
+					],
+					[
+						"tim",
+						"timeLog"
+					],
+					[
+						"send",
+						"sendSlackMessage"
+					],
+					[
+						"Reserv",
+						"ReservationsRawRetain"
+					],
+					[
+						"getRe",
+						"getReservationUpToNthVersion"
+					],
+					[
+						"push",
+						"pushRawReservationIfChanged"
+					],
+					[
+						"readf",
+						"readFileSync"
+					],
+					[
+						"ha",
+						"handleError"
+					],
+					[
+						"sd",
+						"stdout"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"Res",
+						"ReservationsRawRetain"
+					],
+					[
+						"Inter",
+						"IntegrationSpecs"
+					],
+					[
+						"ac",
+						"reservationsAck?"
+					],
+					[
+						"print",
+						"printIncomingMessage"
+					],
+					[
+						"pu",
+						"pull"
+					],
+					[
+						"sync",
+						"syncToDate"
+					],
+					[
+						"parse",
+						"parseInt"
+					],
+					[
+						"par",
+						"parseInt"
+					],
+					[
+						"dele",
+						"deletePriceRecord"
+					],
+					[
+						"m",
+						"minutes"
+					],
+					[
+						"SP",
+						"Span"
+					],
+					[
+						"ho",
+						"hours"
+					],
+					[
+						"SE",
+						"seconds"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/giovanni/Projects/dotfiles/README.md",
+					"settings":
+					{
+						"buffer_size": 1473,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ans",
+						"Set Syntax: Ansible"
+					],
+					[
+						"json",
+						"Set Syntax: JSON"
+					],
+					[
+						"i3",
+						"Set Syntax: i3-wm Config"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"scala",
+						"Scalafmt: Format current file"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"isnta",
+						"Package Control: Install Package"
+					],
+					[
+						"syn ts",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"theme",
+						"UI: Customize Theme"
+					],
+					[
+						"inden",
+						"Indent JSON"
+					],
+					[
+						"ma",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"mark",
+						"Set Syntax: Markdown"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"jso",
+						"Set Syntax: JSON"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"reso",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"window",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setwin",
+						"SetWindowTitle: Settings"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"eas",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"remv",
+						"Package Control: Remove Channel"
+					],
+					[
+						"open woe",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"work",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"easy",
+						"EasyWorkspace: Show Opened Workspaces"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"for",
+						"LSP: Format File"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"simpl",
+						"SimpleFuzzy: Active Project…"
+					],
+					[
+						"terminus se",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"mar",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"i",
+						"Indent JSON"
+					],
+					[
+						"nav",
+						"File Navigator: Open"
+					],
+					[
+						"m",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"keyb",
+						"Preferences: Key Bindings"
+					],
+					[
+						"inde",
+						"Indent JSON"
+					],
+					[
+						"js",
+						"Set Syntax: JSON"
+					],
+					[
+						"ty",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"synt typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"ind",
+						"Indent XML"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"isnt",
+						"Package Control: Install Package"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"forma",
+						"LSP: Format File"
+					],
+					[
+						"format",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"formatt",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"j",
+						"Set Syntax: JSON"
+					],
+					[
+						"term",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"formatter",
+						"Formatter: Beautify With ESLint"
+					],
+					[
+						"termi",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"ui",
+						"UI: Customize Theme"
+					],
+					[
+						"lsp-t",
+						"Preferences: LSP-typescript Settings"
+					],
+					[
+						"eslin",
+						"ESLint"
+					],
+					[
+						"linter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"subl",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublime",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"typescript",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"ui tm",
+						"UI: Select Theme"
+					],
+					[
+						"linte",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"lin",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"lint",
+						"SublimeLinter: Toggle Highlights"
+					],
+					[
+						"linter setti",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimeLinter sett",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"sublimelinter",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"inste",
+						"Package Control: Install Package"
+					],
+					[
+						"a",
+						"ArcticTypescript: Reopen Project (after config changes)"
+					],
+					[
+						"the",
+						"UI: Select Theme"
+					],
+					[
+						"arct",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typesc",
+						"ArcticTypescript: Errors view"
+					],
+					[
+						"typ",
+						"Set Syntax: TypeScript"
+					],
+					[
+						"fmt",
+						"Fmt: Format Selection"
+					],
+					[
+						"codeforma",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"codeF",
+						"CodeFormatter: Format Code"
+					],
+					[
+						"isntal",
+						"Package Control: Install Package"
+					],
+					[
+						"ui ",
+						"UI: Select Theme"
+					],
+					[
+						"ui t",
+						"UI: Select Theme"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"select col",
+						"UI: Select Color Scheme"
+					],
+					[
+						"terminus",
+						"Terminus: Toggle Panel"
+					],
+					[
+						"termin",
+						"Preferences: Terminus Settings"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/giovanni/Projects/dotfiles"
+			],
+			"file_history":
+			[
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/helm-chart/sp-gpcs-pipeline-prod.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/routes.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/deploy.js",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Alpinebits.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/helm-chart/sp-gpcs-pipeline-stage.yaml",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/helm-chart/upgrade_cron_jobs.sh",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/checkReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/cron_migration.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/kafka.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/connections/alicestream.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-cron-jobs/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/getPriceList.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.v2.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/src/routes/automapping.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/integrationSpecs.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Hotelizer.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/httpLogging/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/httpLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/handlers/receiveReservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/utils/getPropertyGroupNetwork.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/streaming/jobLogs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/reservationErrors.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/CinqueStelle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationContext.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/automapping/utils.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/reconsume.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/partners-gateway/src/utils/route-model.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/events-watcher/src/handlers/autodiscovery.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/fastify.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/nightPrices.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/__tests__/splitReservationByNumUnits.test.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/Smartpricing.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Asa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beds24.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bedzzle.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Begenius.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Bemyguest.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Besync.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Casablanca.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ciaobooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Cubilis.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Dirs21.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Easichannel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Elite.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ericsoft.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/HotelSpider.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Ibelsa.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Iperbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Kognitiv.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/KrossBooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Madeep.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Mews.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Myguestcare.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Octorate.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Passepartout.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Protel.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Quovai.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Roomcloud.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sabee.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scidoo.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Scrigno.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Simplebooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Siteminder.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Slope.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Smoobu.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/SMX.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Sysdat.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Verticalbooking.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Viato.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Vioma.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/WebHotelier.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Wubook.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Xenion.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zak.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Zimmersoftware.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-parser/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-downloader/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-diff/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/HttpClient.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/models/Integration.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/types/lib.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Time.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Got.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/utils/dates.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JSONValue.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/cache.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/ReservationData.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/reservation-checker/src/streaming/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/constants/MessageKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/IntegrationSpecs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/api/specs.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/ErmesHotels.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/propertyGroup.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/Messages.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/interfaces/http.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/JobLogKind.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/common/types/GatewayMiddlewares.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/reservations.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/nightPriceCheker.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/utils/schemas/reservation.schema.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-utils/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/index.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/src/action.ts",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/Dockerfile",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/package.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/tsconfig.json",
+				"/home/giovanni/SmartPricing/sources/sp-integration-suite/price-sender/helm-chart/Chart.yaml"
+			],
+			"find":
+			{
+				"height": 32.0
+			},
+			"find_in_files":
+			{
+				"height": 391.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/giovanni/Projects/dotfiles"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/giovanni/Projects/dotfiles/README.md",
+							"selected": true,
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 1473,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"lsp_uri": "file:///home/giovanni/Projects/dotfiles/README.md",
+									"set_window_title_was_dirty": false,
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 127.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.Fmt":
+			{
+				"height": 150.0
+			},
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 156.0
+			},
+			"output.Terminus":
+			{
+				"height": 563.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 156.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups-dummy":
+			{
+				"height": 0.0
+			},
+			"output.references":
+			{
+				"height": 439.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,44,1920,1080,1920,1080,1",
+			"project": "",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 350.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 592.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 378.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 602,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

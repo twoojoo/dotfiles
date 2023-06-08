@@ -1,0 +1,7 @@
+{
+  "unregistered": true,
+  "debug": true,
+  "is_dirty_true": " ",
+  "is_dirty_false": " ",
+  "template": "{is_dirty}{project} Sublime Text",
+}

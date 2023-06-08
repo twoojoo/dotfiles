@@ -1,0 +1,23 @@
+{
+	"default_config": {
+        "linux": "Bash",    // login shell
+        "osx": null,      // login shell
+        "windows": "Command Prompt"
+    },
+	"shell_configs": [
+        {
+            "name": "Bash",
+            "cmd": ["bash", "-i", "-l"],
+            "env": {},
+            "enable": true,
+            "platforms": ["linux", "osx"]
+        }
+    ],
+    "theme": "user",
+    "user_theme_colors": {
+        "background": "#1D1927",
+        "foreground": "#eeeeee",
+        "caret": "#eeeeee",
+        "blue": "#3333ff"
+    }
+}

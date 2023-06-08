@@ -1,0 +1,57 @@
+{
+	"active":
+	[
+		0,
+		0
+	],
+	"filename": "",
+	"folders":
+	[
+		"/home/giovanni/SmartPricing/sources/sp-integration-suite"
+	],
+	"groups":
+	[
+		{
+			"active": 0,
+			"views":
+			[
+				{
+					"file": "/home/giovanni/SmartPricing/sources/sp-integration-suite/integration-lib/src/integrations/Beddy.ts",
+					"read_only": false,
+					"selection":
+					[
+						3593,
+						3593
+					],
+					"visible":
+					[
+						883,
+						2635
+					]
+				}
+			]
+		}
+	],
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	}
+}

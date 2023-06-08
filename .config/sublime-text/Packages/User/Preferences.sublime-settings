@@ -1,0 +1,12 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Gruvbox Material Dark.sublime-theme",
+	"color_scheme": "ayu-mirage.sublime-color-scheme",
+	"font_size": 12,
+	"hot_exit": "disabled",
+	"show_project_first": true,
+	"show_rel_path": true,
+}
