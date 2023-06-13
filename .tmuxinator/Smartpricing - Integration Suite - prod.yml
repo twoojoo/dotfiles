@@ -23,12 +23,19 @@ windows:
         - gateway prod 2
         - gateway prod 3
 
-  - PARSER:
+  - PARSER 1-4: 
       panes:
         - parser prod 1
         - parser prod 2
         - parser prod 3
         - parser prod 4
+
+  - PARSER 5-8:
+      panes:
+        - parser prod 5
+        - parser prod 6
+        - parser prod 7
+        - parser prod 8
 
   - CHECKER:
       layout: even-horizontal

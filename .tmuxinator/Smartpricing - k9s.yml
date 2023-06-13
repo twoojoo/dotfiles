@@ -1,0 +1,19 @@
+name: Smartpricing - k9s
+root: ~/
+
+windows:
+  - sp-gpcs-pipeline-prod:
+      panes: 
+        - k9s -n sp-gpcs-pipeline-prod
+
+  - sp-gpcs-pipeline-stage:
+      panes: 
+        - "k9s -n sp-gpcs-pipeline-stage"
+
+  - sp-gpcs-tech-suport:
+      panes: 
+        - "k9s -n sp-tech-support"
+
+  - sp-sync-prod:
+      panes: 
+        - "k9s -n sp-sync-prod"
