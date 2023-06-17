@@ -42,6 +42,8 @@ unset git_branch_txt
 source "$(pwd)/.smartpricing.bashrc"
 source "$(pwd)/.secrets.bashrc"
 
+export PATH="$HOME/.emacs.d/bin:$PATH"
+
 clear
 
 # tmuxinator start "Utils - Terminals"
