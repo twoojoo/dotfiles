@@ -13,6 +13,7 @@ alias gitlog='git log --graph --oneline --decorate'
 alias gpt='~/Downloads/gpt-cli/gpt.py dev --no_price'
 alias killtmux='tmux kill-server'
 alias polybar='bash ~/.config/polybar/launch.sh --panels'
+alias emacs='emacsclient -c -a "emacs"'
 
 #fuck cmd
 eval "$(thefuck --alias)"
