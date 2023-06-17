@@ -20,6 +20,7 @@ i3-msg "[class=Firefox] move container to workspace $BROWSERS_WS" &> /dev/null
 i3-msg "[class=Subl] move container to workspace $EDITORS_WS" &> /dev/null
 i3-msg "[class=code-oss] move container to workspace $EDITORS_WS" &> /dev/null
 i3-msg "[class=kate] move container to workspace $EDITORS_WS" &> /dev/null
+i3-msg "[class=Emacs] move container to workspace $EDITORS_WS" &> /dev/null
 
 ## Database clients
 i3-msg "[class=beekeeper-studio] move container to workspace $DATABASE_WS" &> /dev/null
